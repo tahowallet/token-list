@@ -1,0 +1,33 @@
+{
+    "name": "Tally Cash Token List",
+    "timestamp": "2022-02-08T10:40:00+00:00",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+    "keywords": [
+      "tallycash",
+      "default",
+      "list",
+      "wallet"
+    ],
+    "tokens": [
+      {
+        "address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
+        "chainId": 1,
+        "name": "Looks Rare Token",
+        "symbol": "LOOKS",
+        "decimals": 18,
+        "logoURI" : "https://github.com/tallycash/token-list/images/looks.png"
+      },
+      {
+        "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+        "chainId": 1,
+        "name": "Ethereum Name Service Token",
+        "symbol": "ENS",
+        "decimals": 18,
+        "logoURI" : "https://github.com/tallycash/token-list/images/ens.png"
+      }
+    ]
+  }
