@@ -61,7 +61,7 @@ Tally is a community run DAO and welcomes contributions from anyone. If you woul
 ```
 
 
-      ```
+```
       {
         "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
         "chainId": 1,
