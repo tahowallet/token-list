@@ -22,6 +22,14 @@ Tokens on token lists, and token lists themselves, are tagged so that users can 
 
 The JSON schema ID is [https://uniswap.org/tokenlist.schema.json](https://uniswap.org/tokenlist.schema.json)
 
+## Tally Cash Lists
+
+Tally Cash aggregates the tokens that are reputable and vetoed by using some of the lists from well establised protocols like [Uniswap](https://uniswap.org/) , [Yearn](https://yearn.finance/), [Messari](https://messari.io/) and more.
+
+The lists can be found [here](https://github.com/tallycash/extension/blob/main/background/services/preferences/defaults.ts)
+
+The intention of the Tally Cash is list is to empower users to add tokens that the community cares about, are added to these lists slowly or that have bad metadata on other lists.
+
 ## Adding a token to Tally Cash token list
 
 Tally is a community run DAO and welcomes contributions from anyone. If you would like to add tokens to this list, you may do the following steps:
@@ -76,4 +84,20 @@ Tally is a community run DAO and welcomes contributions from anyone. If you woul
 git add .
 git commit -m 'add new token'
 git push --set-upstream origin add-[token you are adding]-token
+```
+## Adding a token image
+
+Although not mandatory, it is good to add a token image to have the appropriate logo appear in the Tally Cash wallet. 
+
+The image should be in png format and should have 128 × 128 dimensions. The naming should be `<tokensymbol>.png` and a link to the image should be located in
+the token schema that you are adding. Below is an example of adding LOOKS token.
+
+```      {
+        "address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
+        "chainId": 1,
+        "name": "Looks Token",
+        "symbol": "LOOKS",
+        "decimals": 18,
+        "logoURI" : "https://github.com/tallycash/token-list/images/looks.png"
+      }
 ```
