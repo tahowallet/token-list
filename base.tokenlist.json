@@ -1,0 +1,16 @@
+{
+    "name": "Tally Cash Token List",
+    "timestamp": "2022-02-08T10:40:00+00:00",
+    "version": {
+      "major": 0,
+      "minor": 0,
+      "patch": 2
+    },
+    "keywords": [
+      "tallycash",
+      "default",
+      "list",
+      "wallet"
+    ],
+    "tokens": []
+}
