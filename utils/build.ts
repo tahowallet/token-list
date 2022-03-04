@@ -4,7 +4,13 @@ import { glob } from "glob"
 import * as fs from "fs"
 import * as path from "path"
 
-import { TokenList, schema } from "@uniswap/token-lists"
+import { schema } from "@uniswap/token-lists"
+import Ajv from "ajv"
+import addFormats from "ajv-formats"
+
+const ajv = new Ajv({ allErrors: true, verbose: true })
+addFormats(ajv)
+const tokenlistValidator = ajv.compile(schema)
 
 // sysexits(3) error codes
 const EX_OK = 0
@@ -43,7 +49,6 @@ glob("chains/*.json", {}, function (er, files) {
   // for each file, parse as JSON and validate tokens
   for (const f of sorted) {
     const chainId = parseInt(f.match(/chains\/(\d+)\.json$/)[1])
-    console.log(chainId)
 
     const data = fs.readFileSync(path.resolve(__dirname, "./../", f))
     let parsed
@@ -72,6 +77,16 @@ glob("chains/*.json", {}, function (er, files) {
   const newTokenList = {
     ...tokenlistTemplate,
     tokens
+  }
+
+  const valid = tokenlistValidator(newTokenList)
+
+  if (!valid) {
+    process.stderr.write("Invalid token list, errors below:\n")
+    for (const e of tokenlistValidator.errors) {
+      process.stderr.write(`${JSON.stringify(e, undefined, 2)}\n`)
+    }
+    process.exit(EX_DATAERR)
   }
 
   // TODO set timestamp
