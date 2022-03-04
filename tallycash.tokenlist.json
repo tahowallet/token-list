@@ -27,7 +27,15 @@
         "name": "Ethereum Name Service Token",
         "symbol": "ENS",
         "decimals": 18,
-        "logoURI": "https://github.com/tallycash/token-list/images/ens.png"
+        "logoURI" : "https://github.com/tallycash/token-list/images/ens.png"
+      },
+      {
+        "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
+        "chainId": 1,
+        "name": "Voltage Token",
+        "symbol": "VOLT",
+        "decimals": 18,
+        "logoURI" : "https://github.com/tallycash/token-list/images/volt.png"
       },
       {
         "address": "0xd52da63689543924dca66bcbe2e2ea599c45d575",
