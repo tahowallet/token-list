@@ -128,14 +128,6 @@
     "logoURI": "../images/idrcb.png"
   },
   {
-    "address": "0xe0cff8a40f540657c62eb4cac34b915e5ed8d8ff",
-    "chainId": 30,
-    "name": "Invecoin",
-    "symbol": "INV",
-    "decimals": 18,
-    "logoURI": "../images/inv.png"
-  },
-  {
     "address": "0x9ac7fe28967b30e3a4e6e03286d715b42b453d10",
     "chainId": 30,
     "name": "Money on Chain Governance Token",
