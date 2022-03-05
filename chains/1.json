@@ -94,5 +94,21 @@
 		"symbol": "LQTY",
 		"decimals": 18,
 		"logoURI": "../images/lqty.svg"
+	},
+  {
+		"address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+		"chainId": 1,
+		"name": "FEI USD",
+		"symbol": "FEI",
+		"decimals": 18,
+		"logoURI": "../images/fei.svg"
+	},
+  {
+		"address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+		"chainId": 1,
+		"name": "Tribe",
+		"symbol": "TRIBE",
+		"decimals": 18,
+		"logoURI": "../images/tribe.png"
 	}
 ]
