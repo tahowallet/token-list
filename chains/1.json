@@ -110,5 +110,26 @@
 		"symbol": "TRIBE",
 		"decimals": 18,
 		"logoURI": "../images/tribe.png"
-	}
+	},
+  {
+	  "address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+		"name": "Alchemix",
+		"symbol": "ALCX",
+		"decimals": 18,
+		"logoURI": "../images/alcx.png"
+  },
+  {
+	  "address": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+		"name": "Alchemix USD",
+		"symbol": "alUSD",
+		"decimals": 18,
+		"logoURI": "../images/alusd.svg"
+  },
+  {
+	  "address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
+		"name": "Alchemix ETH",
+		"symbol": "alETH",
+		"decimals": 18,
+		"logoURI": "../images/aleth.svg"
+  }
 ]
