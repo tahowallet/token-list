@@ -38,5 +38,13 @@
     "decimals": 18,
     "symbol": "CVX",
     "logoURI": "../images/convex.svg"
-  }
+  },
+	{
+		"address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+		"chainId": 1,
+		"name": "Polygon (MATIC)",
+		"symbol": "MATIC",
+		"decimals": 18,
+		"logoURI": "../images/matic.png"
+	}
 ]
