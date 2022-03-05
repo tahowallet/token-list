@@ -5,7 +5,7 @@
     "name": "Looks Rare Token",
     "symbol": "LOOKS",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/looks.png"
+    "logoURI": "../images/looks.png"
   },
   {
     "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
@@ -13,7 +13,7 @@
     "name": "Ethereum Name Service Token",
     "symbol": "ENS",
     "decimals": 18,
-    "logoURI" : "https://github.com/tallycash/token-list/images/ens.png"
+    "logoURI" : "../images/ens.png"
   },
   {
     "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
@@ -21,7 +21,7 @@
     "name": "Voltage Token",
     "symbol": "VOLT",
     "decimals": 18,
-    "logoURI" : "https://github.com/tallycash/token-list/images/volt.png"
+    "logoURI" : "../images/volt.png"
   },
   {
     "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
@@ -29,6 +29,6 @@
     "name": "Threshold Network Token",
     "symbol": "T",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/threshold.svg"
+    "logoURI": "../images/threshold.svg"
   }
 ]
