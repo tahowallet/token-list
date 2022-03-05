@@ -78,5 +78,21 @@
 		"symbol": "FXS",
 		"decimals": 18,
 		"logoURI": "../images/fxs.svg"
+	},
+  {
+		"address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+		"chainId": 1,
+		"name": "LUSD Stablecoin",
+		"symbol": "LUSD",
+		"decimals": 18,
+		"logoURI": "../images/lusd.svg"
+	},
+  {
+		"address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
+		"chainId": 1,
+		"name": "Liquity",
+		"symbol": "LQTY",
+		"decimals": 18,
+		"logoURI": "../images/lqty.svg"
 	}
 ]
