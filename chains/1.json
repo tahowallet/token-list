@@ -30,5 +30,13 @@
     "symbol": "T",
     "decimals": 18,
     "logoURI": "../images/threshold.svg"
+  },
+  {
+    "address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+    "chainId": 1,
+    "name": "Convex Token",
+    "decimals": 18,
+    "symbol": "CVX",
+    "logoURI": "../images/convex.svg"
   }
 ]
