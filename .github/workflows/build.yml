@@ -1,10 +1,26 @@
-name: Validate JSON
+name: Build and validate token list JSON
 on: [push]
 jobs:
-  basic-validation:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repo
-      uses: actions/checkout@v2
-    - name: Run through jq
-      run: cat tallycash.tokenlist.json | jq empty
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Read .nvmrc
+      run: echo "::set-output name=NVMRC::$(cat ./.nvmrc)"
+      id: nvm
+    - name: Use Node + Yarn
+      uses: actions/setup-node@v2
+      with:
+        node-version: "${{ steps.nvm.outputs.NVMRC }}"
+        cache: "yarn"
+    - run: yarn install --frozen-lockfile
+    - name: Build token list
+      run: yarn build
+    - name: Upload token list on PRs
+      if: github.ref != 'refs/heads/main'
+      uses: actions/upload-artifact@v2
+      with:
+        name: tallycash.tokenlist.json
+        path: build/tallycash.tokenlist.json
