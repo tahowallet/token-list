@@ -54,5 +54,13 @@
 		"symbol": "WETH",
 		"decimals": 18,
 		"logoURI": "../images/weth.svg"
+	},
+	{
+		"address": "0xf1dc500fde233a4055e25e5bbf516372bc4f6871",
+		"chainId": 1,
+		"name": "Saddle DAO Token",
+		"symbol": "SDL",
+		"decimals": 18,
+		"logoURI": "../images/saddle.svg"
 	}
 ]
