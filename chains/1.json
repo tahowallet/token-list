@@ -39,98 +39,98 @@
     "symbol": "CVX",
     "logoURI": "../images/convex.svg"
   },
-	{
-		"address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
-		"chainId": 1,
-		"name": "Polygon (MATIC)",
-		"symbol": "MATIC",
-		"decimals": 18,
-		"logoURI": "../images/matic.png"
-	},
-	{
-		"address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-		"chainId": 1,
-		"name": "Wrapped Ether",
-		"symbol": "WETH",
-		"decimals": 18,
-		"logoURI": "../images/weth.svg"
-	},
-	{
-		"address": "0xf1dc500fde233a4055e25e5bbf516372bc4f6871",
-		"chainId": 1,
-		"name": "Saddle DAO Token",
-		"symbol": "SDL",
-		"decimals": 18,
-		"logoURI": "../images/saddle.svg"
-	},
-	{
-		"address": "0x853d955acef822db058eb8505911ed77f175b99e",
-		"chainId": 1,
-		"name": "Frax",
-		"symbol": "FRAX",
-		"decimals": 18,
-		"logoURI": "../images/frax.svg"
-	},
   {
-		"address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
-		"chainId": 1,
-		"name": "Frax Share",
-		"symbol": "FXS",
-		"decimals": 18,
-		"logoURI": "../images/fxs.svg"
-	},
-  {
-		"address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
-		"chainId": 1,
-		"name": "LUSD Stablecoin",
-		"symbol": "LUSD",
-		"decimals": 18,
-		"logoURI": "../images/lusd.svg"
-	},
-  {
-		"address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
-		"chainId": 1,
-		"name": "Liquity",
-		"symbol": "LQTY",
-		"decimals": 18,
-		"logoURI": "../images/lqty.svg"
-	},
-  {
-		"address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
-		"chainId": 1,
-		"name": "FEI USD",
-		"symbol": "FEI",
-		"decimals": 18,
-		"logoURI": "../images/fei.svg"
-	},
-  {
-		"address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
-		"chainId": 1,
-		"name": "Tribe",
-		"symbol": "TRIBE",
-		"decimals": 18,
-		"logoURI": "../images/tribe.png"
-	},
-  {
-	  "address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
-		"name": "Alchemix",
-		"symbol": "ALCX",
-		"decimals": 18,
-		"logoURI": "../images/alcx.png"
+    "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+    "chainId": 1,
+    "name": "Polygon (MATIC)",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "logoURI": "../images/matic.png"
   },
   {
-	  "address": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
-		"name": "Alchemix USD",
-		"symbol": "alUSD",
-		"decimals": 18,
-		"logoURI": "../images/alusd.svg"
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "chainId": 1,
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "../images/weth.svg"
   },
   {
-	  "address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
-		"name": "Alchemix ETH",
-		"symbol": "alETH",
-		"decimals": 18,
-		"logoURI": "../images/aleth.svg"
+    "address": "0xf1dc500fde233a4055e25e5bbf516372bc4f6871",
+    "chainId": 1,
+    "name": "Saddle DAO Token",
+    "symbol": "SDL",
+    "decimals": 18,
+    "logoURI": "../images/saddle.svg"
+  },
+  {
+    "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+    "chainId": 1,
+    "name": "Frax",
+    "symbol": "FRAX",
+    "decimals": 18,
+    "logoURI": "../images/frax.svg"
+  },
+  {
+    "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+    "chainId": 1,
+    "name": "Frax Share",
+    "symbol": "FXS",
+    "decimals": 18,
+    "logoURI": "../images/fxs.svg"
+  },
+  {
+    "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+    "chainId": 1,
+    "name": "LUSD Stablecoin",
+    "symbol": "LUSD",
+    "decimals": 18,
+    "logoURI": "../images/lusd.svg"
+  },
+  {
+    "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
+    "chainId": 1,
+    "name": "Liquity",
+    "symbol": "LQTY",
+    "decimals": 18,
+    "logoURI": "../images/lqty.svg"
+  },
+  {
+    "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+    "chainId": 1,
+    "name": "FEI USD",
+    "symbol": "FEI",
+    "decimals": 18,
+    "logoURI": "../images/fei.svg"
+  },
+  {
+    "address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+    "chainId": 1,
+    "name": "Tribe",
+    "symbol": "TRIBE",
+    "decimals": 18,
+    "logoURI": "../images/tribe.png"
+  },
+  {
+    "address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+    "name": "Alchemix",
+    "symbol": "ALCX",
+    "decimals": 18,
+    "logoURI": "../images/alcx.png"
+  },
+  {
+    "address": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+    "name": "Alchemix USD",
+    "symbol": "alUSD",
+    "decimals": 18,
+    "logoURI": "../images/alusd.svg"
+  },
+  {
+    "address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
+    "name": "Alchemix ETH",
+    "symbol": "alETH",
+    "decimals": 18,
+    "logoURI": "../images/aleth.svg"
   },
   {
     "address": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
