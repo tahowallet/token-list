@@ -71,10 +71,6 @@ glob("chains/*.json", {}, async function (er, files) {
     }
     // validate that the chain ID of each token matches the file name
     for (const token of parsed) {
-      if (token["chainId"] !== chainId) {
-        process.stderr.write(`Invalid token in file, wrong chainId - ${f} - ${token}`)
-        process.exit(EX_DATAERR)
-      }
       if(!("address" in token)) {
         process.stderr.write(`Invalid token in file, no address - ${f} - ${token}`)
         process.exit(EX_DATAERR)
@@ -89,7 +85,10 @@ glob("chains/*.json", {}, async function (er, files) {
         process.exit(EX_DATAERR)
       }
 
-      tokens.push(token)
+      tokens.push({
+        ...token,
+        chainId
+      })
     }
   }
 

@@ -1,7 +1,6 @@
 [
   {
     "address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
-    "chainId": 1,
     "name": "Looks Rare Token",
     "symbol": "LOOKS",
     "decimals": 18,
@@ -9,7 +8,6 @@
   },
   {
     "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
-    "chainId": 1,
     "name": "Ethereum Name Service Token",
     "symbol": "ENS",
     "decimals": 18,
@@ -17,7 +15,6 @@
   },
   {
     "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
-    "chainId": 1,
     "name": "Voltage Token",
     "symbol": "VOLT",
     "decimals": 18,
@@ -25,7 +22,6 @@
   },
   {
     "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
-    "chainId": 1,
     "name": "Threshold Network Token",
     "symbol": "T",
     "decimals": 18,
@@ -33,7 +29,6 @@
   },
   {
     "address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
-    "chainId": 1,
     "name": "Convex Token",
     "decimals": 18,
     "symbol": "CVX",
@@ -41,7 +36,6 @@
   },
   {
     "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
-    "chainId": 1,
     "name": "Polygon (MATIC)",
     "symbol": "MATIC",
     "decimals": 18,
@@ -49,7 +43,6 @@
   },
   {
     "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-    "chainId": 1,
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "decimals": 18,
@@ -57,7 +50,6 @@
   },
   {
     "address": "0xf1dc500fde233a4055e25e5bbf516372bc4f6871",
-    "chainId": 1,
     "name": "Saddle DAO Token",
     "symbol": "SDL",
     "decimals": 18,
@@ -65,7 +57,6 @@
   },
   {
     "address": "0x853d955acef822db058eb8505911ed77f175b99e",
-    "chainId": 1,
     "name": "Frax",
     "symbol": "FRAX",
     "decimals": 18,
@@ -73,7 +64,6 @@
   },
   {
     "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
-    "chainId": 1,
     "name": "Frax Share",
     "symbol": "FXS",
     "decimals": 18,
@@ -81,7 +71,6 @@
   },
   {
     "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
-    "chainId": 1,
     "name": "LUSD Stablecoin",
     "symbol": "LUSD",
     "decimals": 18,
@@ -89,7 +78,6 @@
   },
   {
     "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
-    "chainId": 1,
     "name": "Liquity",
     "symbol": "LQTY",
     "decimals": 18,
@@ -97,7 +85,6 @@
   },
   {
     "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
-    "chainId": 1,
     "name": "FEI USD",
     "symbol": "FEI",
     "decimals": 18,
@@ -105,7 +92,6 @@
   },
   {
     "address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
-    "chainId": 1,
     "name": "Tribe",
     "symbol": "TRIBE",
     "decimals": 18,
