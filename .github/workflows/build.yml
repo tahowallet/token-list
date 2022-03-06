@@ -1,0 +1,29 @@
+name: Build and validate token list JSON
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Read .nvmrc
+      run: echo "::set-output name=NVMRC::$(cat ./.nvmrc)"
+      id: nvm
+    - name: Use Node + Yarn
+      uses: actions/setup-node@v2
+      with:
+        node-version: "${{ steps.nvm.outputs.NVMRC }}"
+        cache: "yarn"
+    - run: yarn install --frozen-lockfile
+    - name: Build token list
+      if: github.ref == 'refs/heads/main'
+      run: yarn build
+      env:
+        FLEEK_STORAGE_API_KEY: ${{ secrets.FLEEK_STORAGE_API_KEY }}
+        FLEEK_STORAGE_API_SECRET: ${{ secrets.FLEEK_STORAGE_API_SECRET }}
+    - name: Upload token list as an artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: tallycash.tokenlist.json
+        path: build/tallycash.tokenlist.json

@@ -1,6 +1,6 @@
 {
   "name": "@tallyho/token-list",
-  "version": "1.1.0",
+  "version": "2.1.0",
   "description": "A community-maintained token list for Tally, the community-owned wallet.",
   "repository": "git@github.com:tallycash/token-list.git",
   "author": "Matt Luongo <mhluongo@gmail.com>",
@@ -10,10 +10,14 @@
     "ajv": "^8.10.0"
   },
   "devDependencies": {
+    "@fleekhq/fleek-storage-js": "^1.0.21",
     "@types/glob": "^7.2.0",
     "ajv-formats": "^2.1.1",
     "glob": "^7.2.0",
     "ts-node": "^10.6.0",
     "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "build": "ts-node utils/build.ts"
   }
 }

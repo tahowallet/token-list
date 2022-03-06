@@ -5,7 +5,7 @@
     "name": "Pesos Argentinos PagoLinea",
     "symbol": "ARSCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/arscb.png"
+    "logoURI": "../images/arscb.png"
   },
   {
     "address": "0x977675b863b3b1cf46a927fddcbe0c831bf50135",
@@ -13,7 +13,7 @@
     "name": "Pesos Bolivianos PagoLinea",
     "symbol": "BOBCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/bobcb.png"
+    "logoURI": "../images/bobcb.png"
   },
   {
     "address": "0x440cd83c160de5c96ddb20246815ea44c7abbca8",
@@ -21,7 +21,7 @@
     "name": "BitPro",
     "symbol": "BITP",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/bitp.png"
+    "logoURI": "../images/bitp.png"
   },
   {
     "address": "0x3e040020648a2f2c872ce0c7165ba5ad7841c972",
@@ -29,7 +29,7 @@
     "name": "Real Brasileño PagoLinea",
     "symbol": "BRLCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/brlcb.png"
+    "logoURI": "../images/brlcb.png"
   },
   {
     "address": "0xe355c280131dfaf18bf1c3648aee3c396db6b5fd",
@@ -37,7 +37,7 @@
     "name": "Brazilian Digital Token",
     "symbol": "BRZ",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/brz.png"
+    "logoURI": "../images/brz.png"
   },
   {
     "address": "0xab2d290b7a600f5ea8d5b933f6f15c867fd7e60e",
@@ -45,7 +45,7 @@
     "name": "Bitcoin PagoLinea",
     "symbol": "BTCCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/btccb.png"
+    "logoURI": "../images/btccb.png"
   },
   {
     "address": "0x61b50d8fb43cc28b56ee7f9da32ae46c3c1c68a3",
@@ -53,7 +53,7 @@
     "name": "Yuan Chino PagoLinea",
     "symbol": "CNYCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/cnycb.png"
+    "logoURI": "../images/cnycb.png"
   },
   {
     "address": "0x7c459c5b11e2815db085dda9ec314a9cde00a082",
@@ -61,7 +61,7 @@
     "name": "Pesos Colombianos PagoLinea",
     "symbol": "COPCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/copcb.png"
+    "logoURI": "../images/copcb.png"
   },
   {
     "address": "0x872664a885a1995d754e3666a23fad5c801401c4",
@@ -69,7 +69,7 @@
     "name": "rLending RBTC",
     "symbol": "cRBTC",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/crbtc.png"
+    "logoURI": "../images/crbtc.png"
   },
   {
     "address": "0xb7ff2c56c897562c0aa6747d2679d35f5e937492",
@@ -77,7 +77,7 @@
     "name": "rLending RIF",
     "symbol": "cRIF",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/crif.png"
+    "logoURI": "../images/crif.png"
   },
   {
     "address": "0xd256c121a507cadd2687599e27fa45e31b7c3199",
@@ -85,7 +85,7 @@
     "name": "rLending USDT",
     "symbol": "crUSDT",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/crusdt.png"
+    "logoURI": "../images/crusdt.png"
   },
   {
     "address": "0xe700691da7b9851f2f35f8b8182c69c53ccad9db",
@@ -93,7 +93,7 @@
     "name": "Dollar on Chain",
     "symbol": "DOC",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/doc.png"
+    "logoURI": "../images/doc.png"
   },
   {
     "address": "0x84c0cb1d6623cfb3546a79c66eb96b874ce6659d",
@@ -101,7 +101,7 @@
     "name": "Ether PagoLinea",
     "symbol": "ETHCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/ethcb.png"
+    "logoURI": "../images/ethcb.png"
   },
   {
     "address": "0xae2ceb4b57ade22643be2909425105d5114b1dbc",
@@ -109,7 +109,7 @@
     "name": "Euro PagoLinea",
     "symbol": "EURCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/eurcb.png"
+    "logoURI": "../images/eurcb.png"
   },
   {
     "address": "0x055a902303746382fbb7d18f6ae0df56efdc5213",
@@ -117,7 +117,7 @@
     "name": "Babelfish",
     "symbol": "FISH",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/fish.png"
+    "logoURI": "../images/fish.png"
   },
   {
     "address": "0x3d9f9e1f8151410beda306fdf8626a02e03ea8aa",
@@ -125,15 +125,7 @@
     "name": "Rupia Indonesia PagoLinea",
     "symbol": "IDRCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/idrcb.png"
-  },
-  {
-    "address": "0xe0cff8a40f540657c62eb4cac34b915e5ed8d8ff",
-    "chainId": 30,
-    "name": "Invecoin",
-    "symbol": "INV",
-    "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/inv.png"
+    "logoURI": "../images/idrcb.png"
   },
   {
     "address": "0x9ac7fe28967b30e3a4e6e03286d715b42b453d10",
@@ -141,7 +133,7 @@
     "name": "Money on Chain Governance Token",
     "symbol": "MOC",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/moc.png"
+    "logoURI": "../images/moc.png"
   },
   {
     "address": "0x2058ba9577c4f90246bea9d74ae2e4cd0167a123",
@@ -149,7 +141,7 @@
     "name": "Pesos Mexicanos PagoLinea",
     "symbol": "MXNCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/mxncb.png"
+    "logoURI": "../images/mxncb.png"
   },
   {
     "address": "0x99af5deb8daebcd36fccd16fa46dc95d922cde5b",
@@ -157,7 +149,7 @@
     "name": "Pesos Panameños PagoLinea",
     "symbol": "PABCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/pabcb.png"
+    "logoURI": "../images/pabcb.png"
   },
   {
     "address": "0x0f6895fa2679453d2c32c5f6e2f00e4621c57ca2",
@@ -165,7 +157,7 @@
     "name": "Sol Peruano PagoLinea",
     "symbol": "PENCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/pencb.png"
+    "logoURI": "../images/pencb.png"
   },
   {
     "address": "0xa05fd8082e19923aa4868ff3c2ae48850b734736",
@@ -173,7 +165,7 @@
     "name": "Guaranies Paraguayos PagoLinea",
     "symbol": "PYGCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/pygcb.png"
+    "logoURI": "../images/pygcb.png"
   },
   {
     "address": "0xff9ea341d9ea91cb7c54342354377f5104fd403f",
@@ -181,7 +173,7 @@
     "name": "AMLT Coinfirm on RSK",
     "symbol": "rAMLT",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/ramlt.png"
+    "logoURI": "../images/ramlt.png"
   },
   {
     "address": "0x4991516df6053121121274397a8c1dad608bc95b",
@@ -189,7 +181,7 @@
     "name": "Bundles Finance on RSK",
     "symbol": "rBUND",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rbund.png"
+    "logoURI": "../images/rbund.png"
   },
   {
     "address": "0x6b1a73d547f4009a26b8485b63d7015d248ad406",
@@ -197,7 +189,7 @@
     "name": "Dai Stablecoin on RSK",
     "symbol": "rDAI",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rdai.png"
+    "logoURI": "../images/rdai.png"
   },
   {
     "address": "0x2d919f19d4892381d58edebeca66d5642cef1a1f",
@@ -205,7 +197,7 @@
     "name": "RIF Dollar on Chain",
     "symbol": "RDOC",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rdoc.png"
+    "logoURI": "../images/rdoc.png"
   },
   {
     "address": "0x73c08467e23f7dcb7ddbbc8d05041b74467a498a",
@@ -213,7 +205,7 @@
     "name": "Flixxo on RSK",
     "symbol": "rFLIXX",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rflixx.png"
+    "logoURI": "../images/rflixx.png"
   },
   {
     "address": "0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
@@ -221,7 +213,7 @@
     "name": "RIF",
     "symbol": "RIF",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rif.png"
+    "logoURI": "../images/rif.png"
   },
   {
     "address": "0xf4d27c56595ed59b66cc7f03cff5193e4bd74a61",
@@ -229,7 +221,7 @@
     "name": "RIF Pro",
     "symbol": "RIFP",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rifp.png"
+    "logoURI": "../images/rifp.png"
   },
   {
     "address": "0x14adae34bef7ca957ce2dde5add97ea050123827",
@@ -237,7 +229,7 @@
     "name": "ChainLink Token on RSK",
     "symbol": "rLINK",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rlink.png"
+    "logoURI": "../images/rlink.png"
   },
   {
     "address": "0x45d3e4fb311982a06ba52359d44cb4f5980e0ef1",
@@ -245,7 +237,7 @@
     "name": "RIF Name Service",
     "symbol": "RNS",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rif.png"
+    "logoURI": "../images/rif.png"
   },
   {
     "address": "0x9c3a5f8d686fade293c0ce989a62a34408c4e307",
@@ -253,7 +245,7 @@
     "name": "RedFOX Labs on RSK",
     "symbol": "rRFOX",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rrfox.png"
+    "logoURI": "../images/rrfox.png"
   },
   {
     "address": "0x70566d8541beabe984c8babf8a816ed908514ba8",
@@ -261,7 +253,7 @@
     "name": "Universal Basic Income on RSK",
     "symbol": "rUBI",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rubi.png"
+    "logoURI": "../images/rubi.png"
   },
   {
     "address": "0x1bda44fda023f2af8280a16fd1b01d1a493ba6c4",
@@ -269,7 +261,7 @@
     "name": "USD Coin on RSK",
     "symbol": "rUSDC",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rusdc.png"
+    "logoURI": "../images/rusdc.png"
   },
   {
     "address": "0xef213441a85df4d7acbdae0cf78004e1e486bb96",
@@ -277,7 +269,7 @@
     "name": "Tether USD on RSK",
     "symbol": "rUSDT",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/rusdt.png"
+    "logoURI": "../images/rusdt.png"
   },
   {
     "address": "0xefc78fc7d48b64958315949279ba181c2114abbd",
@@ -285,7 +277,7 @@
     "name": "Sovryn Token",
     "symbol": "SOV",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/sov.png"
+    "logoURI": "../images/sov.png"
   },
   {
     "address": "0xaa5dc2ea0e056fc962f48ab25547d66d3586ee8a",
@@ -293,7 +285,7 @@
     "name": "Dólar Americano PagoLinea",
     "symbol": "USDCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/usdcb.png"
+    "logoURI": "../images/usdcb.png"
   },
   {
     "address": "0xd8132625b10b3962239f6842981dce02f1a163d2",
@@ -301,7 +293,7 @@
     "name": "Peso Uruguayo PagoLinea",
     "symbol": "UYUCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/uyucb.png"
+    "logoURI": "../images/uyucb.png"
   },
   {
     "address": "0xe9f78e507f24537f3f78c212cf93f65eec9054c2",
@@ -309,7 +301,7 @@
     "name": "Bolívares PagoLinea",
     "symbol": "VESCB",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/vescb.png"
+    "logoURI": "../images/vescb.png"
   },
   {
     "address": "0x967f8799af07df1534d48a95a5c9febe92c53ae0",
@@ -317,7 +309,7 @@
     "name": "Wrapped RBTC on RSK",
     "symbol": "WRBTC",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/wrbtc.png"
+    "logoURI": "../images/wrbtc.png"
   },
   {
     "address": "0xb5999795be0ebb5bab23144aa5fd6a02d080299f",
@@ -325,6 +317,6 @@
     "name": "XUSD Babelfish stablecoin",
     "symbol": "XUSD",
     "decimals": 18,
-    "logoURI": "https://github.com/tallycash/token-list/images/xusd.png"
+    "logoURI": "../images/xusd.png"
   }
 ]
