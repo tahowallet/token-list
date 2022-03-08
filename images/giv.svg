@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 128 128"
+   version="1.1"
+   sodipodi:docname="giv.svg"
+   width="128"
+   height="128"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="19.625"
+     inkscape:cx="70.343949"
+     inkscape:cy="43.643312"
+     inkscape:window-width="1280"
+     inkscape:window-height="658"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#5326ec;}.cls-2{fill:#fcfcff;}</style>
+  </defs>
+  <title
+     id="title6">GIV_menu</title>
+  <circle
+     class="cls-1"
+     cx="64"
+     cy="64"
+     r="64"
+     id="circle8"
+     style="stroke-width:5.33333" />
+  <path
+     class="cls-2"
+     d="M 107.73333,65.066667 V 68.8 A 42.666667,42.666667 0 0 1 89.6,99.733333 41.066667,41.066667 0 0 1 62.4,107.73333 41.6,41.6 0 0 1 33.066667,95.466667 v 0 L 64,64.533333 h 43.73333 z"
+     id="path10"
+     style="stroke-width:5.33333" />
+  <path
+     class="cls-2"
+     d="M 65.066667,20.266667 H 68.8 A 41.6,41.6 0 0 1 88,27.2 h 0.533333 L 84.8,30.933333 C 83.733333,32 82.666667,32.533333 82.133333,33.6 H 81.6 A 39.466667,39.466667 0 0 0 62.4,28.8 35.2,35.2 0 0 0 29.866667,55.466667 34.666667,34.666667 0 0 0 33.6,81.6 v 0 L 27.2,88 v 0 a 1.6,1.6 0 0 0 -0.533333,-1.066667 42.133333,42.133333 0 0 1 -6.4,-26.666666 43.733333,43.733333 0 0 1 36.266666,-40 z"
+     id="path12"
+     style="stroke-width:5.33333" />
+  <path
+     class="cls-2"
+     d="m 87.466667,46.4 a 8.5333333,8.5333333 0 0 1 1.6,-4.8 5.8666667,5.8666667 0 0 1 4.8,-2.666667 9.0666667,9.0666667 0 0 1 5.333333,0.533334 6.4,6.4 0 0 1 3.2,4.266666 5.8666667,5.8666667 0 0 1 0.53333,5.333334 8.5333333,8.5333333 0 0 1 -3.199997,4.266666 A 8.5333333,8.5333333 0 0 1 94.4,54.4 9.6,9.6 0 0 1 89.6,52.266667 L 88,49.6 a 6.9333333,6.9333333 0 0 1 -0.533333,-3.2 z"
+     id="path14"
+     style="stroke-width:5.33333" />
+  <metadata
+     id="metadata834">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>GIV_menu</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

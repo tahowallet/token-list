@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 128 127.99999"
+   version="1.1"
+   sodipodi:docname="RSK_R-BTC_Logo_RGB-01.svg"
+   width="128"
+   height="128"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview24"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.4030612"
+     inkscape:cx="50.976645"
+     inkscape:cy="49.728238"
+     inkscape:window-width="1280"
+     inkscape:window-height="658"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs7">
+    <style
+       id="style2">.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#ff9931;}.cls-4{fill:#fff;}.cls-5{fill:#006e3c;}.cls-6{fill:#06b23c;}</style>
+    <clipPath
+       id="clip-path">
+      <rect
+         class="cls-1"
+         width="210.7"
+         height="196"
+         id="rect4"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <title
+     id="title9">RSK_R-BTC_Logo_RGB</title>
+  <g
+     class="cls-2"
+     clip-path="url(#clip-path)"
+     id="g21"
+     transform="matrix(0.61241089,0,0,0.66534984,-0.51442515,-1.2042832)">
+    <path
+       class="cls-3"
+       d="M 97,188.19 A 90.19,90.19 0 1 1 187.22,98 90.29,90.29 0 0 1 97,188.19"
+       id="path11" />
+    <path
+       class="cls-4"
+       d="M 97,13.81 A 84.19,84.19 0 1 1 12.85,98 84.19,84.19 0 0 1 97,13.81 m 0,-12 A 96.19,96.19 0 1 0 193.22,98 96.3,96.3 0 0 0 97,1.81"
+       id="path13" />
+    <path
+       class="cls-5"
+       d="m 197.37,44.67 a 51.41,51.41 0 0 0 -18,-4.3 30,30 0 0 0 -15.49,3.32 28,28 0 0 0 -2.61,1.61 c -7.2,5.05 -10.88,13 -12.72,19.1 l -0.74,2.6 2.4,-1.28 12.65,-6.72 a 5.05,5.05 0 0 1 6.82,2 v 0 l 0.07,0.12 a 5,5 0 0 1 0.21,0.48 l 29.18,-16.16 c -0.26,-0.12 -1.53,-0.62 -1.81,-0.75"
+       id="path15" />
+    <path
+       class="cls-6"
+       d="m 192.75,64.23 c -14.46,23.89 -40.21,12 -40.21,12 l 9.29,-5 c 0.77,-0.46 5.84,-3.13 5.84,-3.13 a 5.16,5.16 0 0 0 2.12,-6.8 l 29.39,-15.88 a 45.76,45.76 0 0 1 -6.43,18.81"
+       id="path17" />
+    <path
+       class="cls-4"
+       d="m 207.11,37.92 c -1.28,-0.75 -13,-7.43 -27.3,-8 a 40,40 0 0 0 -20.68,4.56 37,37 0 0 0 -5.6,3.71 c -12.88,10.31 -16.22,27 -17.07,34.33 l -0.07,0.59 -0.52,0.28 -3.78,2 A 31.06,31.06 0 0 0 119,67.91 l -0.73,-0.2 3.78,-15 -9,-2.32 -3.75,14.92 -6.76,-1.81 3.74,-14.86 -9,-2.32 -3.7,14.78 C 82.69,58.25 75.72,56.52 75.72,56.52 c 0,0 -1.5,7.53 -2.15,9.34 0,0 1.85,0.45 3.84,1 1.31,0.38 7.72,1.07 5.58,9 -1.2,4.46 -8.2,34.37 -8.75,36.41 C 73.61,114.7 73,116 70,115.38 l -7.16,-1.6 -4.49,10.71 c 1.63,0.56 7.27,1.86 18,4.57 l -3.75,14.77 9,2.32 3.72,-14.79 6.76,1.77 -3.74,14.77 9,2.32 3.77,-15 c 10.43,1.94 16.44,1.32 17.87,1.06 8.71,-1.61 12.41,-8.31 14,-14.7 4.52,-18 -10.31,-19.61 -8.43,-20 8.3,-1.67 12.27,-9.61 11.82,-16.66 l 4.24,-2.26 0.52,-0.29 0.51,0.28 a 58.12,58.12 0 0 0 24.12,6.77 38.54,38.54 0 0 0 17.53,-3.34 c 0.76,-0.35 1.5,-0.72 2.24,-1.11 C 206.67,73.6 209.4,45.9 209.64,42.78 l 0.21,-3.22 z m -91.92,79.91 c -2.46,9.82 -19.11,4.87 -19.11,4.87 l -7.91,-2 4.93,-19.7 9.45,2.44 c 0,0 15.41,3.34 12.64,14.37 m 3,-29.27 c -2.26,9 -16.13,4.83 -16.13,4.83 l -6.58,-1.7 4.52,-18 7.87,2 c 0,0 12.86,2.73 10.32,12.85 M 198.9,46.15 v 0.11 c -1.46,8.16 -5.76,22.85 -18.15,29.51 l -0.33,0.16 a 28.32,28.32 0 0 1 -14.32,3 41.48,41.48 0 0 1 -10.95,-2 l -2.57,-0.82 2.38,-1.28 12.75,-6.84 a 5.19,5.19 0 0 0 2.49,-3 5.66,5.66 0 0 0 0.21,-1.34 5.18,5.18 0 0 0 -0.37,-2.13 5,5 0 0 0 -0.21,-0.48 l -0.07,-0.12 v 0 a 5.05,5.05 0 0 0 -6.82,-2 l -12.65,6.77 -2.48,1.31 0.79,-2.61 c 1.84,-6.09 5.52,-14.05 12.72,-19.1 a 28,28 0 0 1 2.61,-1.61 30,30 0 0 1 15.49,-3.32 51.41,51.41 0 0 1 18,4.3 c 0.28,0.13 0.56,0.24 0.82,0.37 l 0.79,0.38 z"
+       id="path19" />
+  </g>
+  <metadata
+     id="metadata841">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>RSK_R-BTC_Logo_RGB</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

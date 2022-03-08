@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 1.6384 1.6384"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="eth2.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs24" />
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.1884"
+     inkscape:cx="66.348195"
+     inkscape:cy="66.348195"
+     inkscape:window-width="1280"
+     inkscape:window-height="658"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g18"
+     transform="scale(0.0512)">
+    <circle
+       cx="16"
+       cy="16"
+       r="16"
+       fill="#627eea"
+       id="circle2" />
+    <g
+       fill="#ffffff"
+       fill-rule="nonzero"
+       id="g16">
+      <path
+         fill-opacity="0.602"
+         d="m 16.498,4 v 8.87 l 7.497,3.35 z"
+         id="path4" />
+      <path
+         d="M 16.498,4 9,16.22 16.498,12.87 Z"
+         id="path6" />
+      <path
+         fill-opacity="0.602"
+         d="m 16.498,21.968 v 6.027 L 24,17.616 Z"
+         id="path8" />
+      <path
+         d="M 16.498,27.995 V 21.967 L 9,17.616 Z"
+         id="path10" />
+      <path
+         fill-opacity="0.2"
+         d="M 16.498,20.573 23.995,16.22 16.498,12.872 Z"
+         id="path12" />
+      <path
+         fill-opacity="0.602"
+         d="m 9,16.22 7.498,4.353 v -7.701 z"
+         id="path14" />
+    </g>
+  </g>
+</svg>

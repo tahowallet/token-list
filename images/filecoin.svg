@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"   height="128"
+   viewBox="0 0 100 100.00018"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="fil.svg"
+   style="fill:none"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12">
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="40"
+       height="40"
+       id="b-logo_1_1_">
+      <g
+         class="st0"
+         id="g1390">
+        <path
+           inkscape:connector-curvature="0"
+           id="a-logo_1_1_"
+           class="st1"
+           d="M 0,0 H 40 V 40 H 0 Z" />
+      </g>
+    </mask>
+    <filter
+       id="Adobe_OpacityMaskFilter"
+       filterUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="40"
+       height="40">
+      <feColorMatrix
+         type="matrix"
+         values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+         id="feColorMatrix1384" />
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="40"
+       height="40"
+       id="b-logo_1_1_-3">
+      <g
+         class="st0"
+         id="g1390-6">
+        <path
+           inkscape:connector-curvature="0"
+           id="a-logo_1_1_-7"
+           class="st1"
+           d="M 0,0 H 40 V 40 H 0 Z" />
+      </g>
+    </mask>
+    <filter
+       id="Adobe_OpacityMaskFilter-5"
+       filterUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="40"
+       height="40">
+      <feColorMatrix
+         type="matrix"
+         values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+         id="feColorMatrix1384-3" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     id="namedview10"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="4"
+     inkscape:cx="16.60471"
+     inkscape:cy="14.237246"
+     inkscape:window-x="72"
+     inkscape:window-y="1107"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8"
+     inkscape:snap-nodes="false" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 50.000152,100.00017 C 77.614334,100.00017 100,77.614508 100,50.000054 100,22.385818 77.614334,4.9718407e-8 50.000152,4.9718407e-8 22.385807,4.9718407e-8 3.1390797e-8,22.385818 3.1390797e-8,50.000054 3.1390797e-8,77.614508 22.385807,100.00017 50.000152,100.00017 Z"
+     id="path2"
+     style="fill:#1b99f0;stroke-width:5.43025064;fill-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     class="st1"
+     d="m 54.026259,44.611654 -1.380432,7.362301 13.1141,1.840577 -0.920288,3.451078 -12.88403,-1.840576 c -0.920284,2.990934 -1.380429,6.211943 -2.530791,8.972807 -1.150358,3.221004 -2.30072,6.442013 -3.681148,9.432948 -1.840577,3.911222 -5.061585,6.672087 -9.432952,7.362301 -2.530791,0.460144 -5.291655,0.230074 -7.362301,-1.380432 -0.690218,-0.460145 -1.380432,-1.380429 -1.380432,-2.070647 0,-0.920288 0.460144,-2.070646 1.150358,-2.53079 0.460144,-0.230074 1.610506,0 2.30072,0.23007 0.690218,0.690218 1.380432,1.610506 1.840576,2.530794 1.380433,1.840573 3.221009,2.070647 5.061581,0.690214 2.070651,-1.840576 3.221009,-4.371366 3.911227,-6.902157 1.380428,-5.521729 2.76086,-10.813383 3.911223,-16.335108 v -0.920288 l -12.193817,-1.840577 0.460144,-3.451078 12.653961,1.840576 1.610502,-7.132231 -13.1141,-2.070647 0.460144,-3.681152 13.574244,1.840576 c 0.460144,-1.380432 0.690214,-2.53079 1.150358,-3.681153 1.150363,-4.141292 2.300721,-8.282589 5.061585,-11.963738 2.760861,-3.681152 5.981869,-5.981873 10.81338,-5.751799 2.070647,0 4.141297,0.690214 5.521726,2.300717 0.230074,0.230074 0.690218,0.690218 0.690218,1.150362 0,0.920288 0,2.070646 -0.690218,2.760865 -0.920284,0.690214 -2.070647,0.460144 -2.990935,-0.460145 -0.690214,-0.690218 -1.150358,-1.380432 -1.840577,-2.07065 -1.380428,-1.840572 -3.451078,-2.070646 -5.061581,-0.460144 -1.150358,1.150362 -2.30072,2.760864 -2.990934,4.371367 -1.610506,4.831511 -2.760865,9.893095 -4.371367,14.954676 l 12.653957,1.840577 -0.920289,3.451078 -12.193812,-1.840572"
+     id="path1395"
+     style="fill:#ffffff;stroke-width:2.3007195" />
+</svg>

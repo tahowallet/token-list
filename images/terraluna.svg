@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 128 128"
+   xml:space="preserve"
+   sodipodi:docname="terraluna.svg"
+   width="128"
+   height="128"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs17" /><sodipodi:namedview
+   id="namedview15"
+   pagecolor="#ffffff"
+   bordercolor="#999999"
+   borderopacity="1"
+   inkscape:pageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.2355"
+   inkscape:cx="65.81741"
+   inkscape:cy="65.81741"
+   inkscape:window-width="1280"
+   inkscape:window-height="658"
+   inkscape:window-x="-6"
+   inkscape:window-y="-6"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#172852;}
+	.st1{fill:#FFD83D;}
+	.st2{fill:#FF6F03;}
+</style>
+<circle
+   class="st0"
+   cx="64"
+   cy="64"
+   r="64"
+   id="circle4"
+   style="stroke-width:0.064" />
+<g
+   id="g10"
+   transform="scale(0.064)">
+	<path
+   class="st1"
+   d="m 805.5,446.9 c 117.1,-43.8 248.9,-43.9 368.2,-7.9 155.3,48.2 286.4,165.4 354.9,312.5 18.9,41.9 37,85.6 38.8,132.2 -87.3,-50.6 -183,-83.4 -278.9,-113.3 -153.4,-55.3 -314,-93.7 -459.2,-169.7 -33.8,-20.2 -76.9,-40.9 -86.1,-83 -3.7,-36.4 34.8,-56.7 62.3,-70.8"
+   id="path6" />
+	<path
+   class="st1"
+   d="m 452,800.9 c 33.9,-92 89.5,-177.4 165,-240.7 19.2,157.9 86.4,310.5 197.4,425.3 133.1,138.3 322.7,223.2 515.6,220 76.6,2.4 151.5,-15.3 226.2,-29.6 -73.5,265.6 -364.6,441.9 -634.3,399.5 C 759.1,1554.6 608.8,1458.2 518.1,1322.1 415.8,1171.7 390,972 452,800.9 Z"
+   id="path8" />
+</g>
+<path
+   class="st2"
+   d="m 82.464,49.3056 c 6.1376,1.9136 12.2624,4.0128 17.8496,7.2512 l 0.3776,0.1984 c 0.5184,3.8976 0.896,7.872 0.2048,11.776 C 98.0864,67.3408 95.808,65.248 93.4272,63.3984 88.8448,59.584 84.1664,55.2192 82.464,49.3056"
+   id="path12"
+   style="stroke-width:0.064" />
+</svg>

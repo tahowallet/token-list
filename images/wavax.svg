@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="wavax.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10">
+    <radialGradient
+       id="paint0_radial"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-87.407858,114.23722,0,127.94124,219.98427)">
+      <stop
+         offset="0.203695"
+         stop-color="#56F2FF"
+         id="stop12" />
+      <stop
+         offset="1"
+         stop-color="#4A8CEA"
+         id="stop14" />
+    </radialGradient>
+    <radialGradient
+       id="paint1_radial"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.07421765,26.461399,-50.097368,-0.14051066,128.04539,107.27551)">
+      <stop
+         stop-color="#EEFF83"
+         id="stop17" />
+      <stop
+         offset="0.689596"
+         stop-color="#5699EC"
+         id="stop19" />
+    </radialGradient>
+    <radialGradient
+       id="paint2_diamond"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.08609386,30.830016,-58.131497,-0.16233419,128.02743,118.58245)">
+      <stop
+         stop-color="#56F2FF"
+         id="stop22" />
+      <stop
+         offset="1"
+         stop-color="#5699EC"
+         id="stop24" />
+    </radialGradient>
+    <linearGradient
+       id="paint3_linear"
+       x1="191.38499"
+       y1="0.097656198"
+       x2="191.38499"
+       y2="272.17599"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.35913264,0,0,0.35913264,36.11317,36.062029)">
+      <stop
+         offset="0.377179"
+         stop-color="#FFE336"
+         id="stop27" />
+      <stop
+         offset="1"
+         stop-color="#13C0B6"
+         stop-opacity="0.7"
+         id="stop29" />
+    </linearGradient>
+    <linearGradient
+       id="paint4_linear"
+       x1="320.672"
+       y1="0"
+       x2="320.672"
+       y2="272.189"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.35913264,0,0,0.35913264,36.11317,36.062029)">
+      <stop
+         offset="0.408817"
+         stop-color="#FF7F72"
+         id="stop32" />
+      <stop
+         offset="1"
+         stop-color="#2978EF"
+         stop-opacity="0.7"
+         id="stop34" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="52.502679"
+     inkscape:cy="72.655222"
+     inkscape:window-width="1280"
+     inkscape:window-height="658"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <circle
+     cx="128"
+     cy="128"
+     r="128"
+     fill="#ffffff"
+     id="circle2"
+     style="fill:#ffffff" />
+  <path
+     style="fill:#000000;stroke-width:3.87804"
+     d="m 48.5,185.47429 c 0,-9.32235 74.22513,-137.81829 79.61,-137.81829 5.16091,0 22.05936,26.33748 26.85569,41.856737 2.09773,6.786913 -2.60418,18.265433 -19.85192,48.462873 -30.05354,52.61835 -30.68865,53.16811 -61.406452,53.16811 -19.529267,0 -25.207316,-1.2769 -25.207318,-5.66943 z m 95.04172,1.83967 c -2.74352,-4.43962 27.66156,-58.21904 32.91521,-58.21904 4.61925,0 31.04307,47.35642 31.04307,55.63497 0,5.42793 -4.7336,6.41383 -30.7954,6.41383 -16.9377,0 -31.86089,-1.72346 -33.16288,-3.82976 z"
+     id="path30" />
+</svg>
