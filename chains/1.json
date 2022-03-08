@@ -1,59 +1,178 @@
 [
   {
-    "address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
-    "name": "Looks Rare Token",
-    "symbol": "LOOKS",
+    "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+    "name": "1inch",
+    "symbol": "1INCH",
     "decimals": 18,
-    "logoURI": "../images/looks.png"
+    "logoURI": "../images/1inch.svg"
+  },
+  {
+    "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "name": "Aave",
+    "symbol": "AAVE",
+    "decimals": 18,
+    "logoURI": "../images/aave.svg"
+  },
+  {
+    "address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+    "name": "Alchemix",
+    "symbol": "ALCX",
+    "decimals": 18,
+    "logoURI": "../images/alcx.svg"
+  },
+  {
+    "address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
+    "name": "Alchemix ETH",
+    "symbol": "alETH",
+    "decimals": 18,
+    "logoURI": "../images/aleth.svg"
+  },
+  {
+    "address": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+    "name": "Alchemix USD",
+    "symbol": "alUSD",
+    "decimals": 18,
+    "logoURI": "../images/alusd.svg"
+  },
+  {
+    "address": "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
+    "name": "Alpha Finance",
+    "symbol": "ALPHA",
+    "decimals": 18,
+    "logoURI": "../images/alpha.svg"
+  },
+  {
+    "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+    "name": "Ampleforth",
+    "symbol": "AMPL",
+    "decimals": 9,
+    "logoURI": "../images/ampl.svg"
+  },
+  {
+    "address": "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4",
+    "name": "Ankr Network",
+    "symbol": "ANKR",
+    "decimals": 18,
+    "logoURI": "../images/ankr.svg"
+  },
+  {
+    "address": "0x8D983cb9388EaC77af0474fA441C4815500Cb7BB",
+    "name": "Cosmos",
+    "symbol": "ATOM",
+    "decimals": 6,
+    "logoURI": "../images/atom.svg"
+  },
+  {
+    "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "name": "Balancer",
+    "symbol": "BAL",
+    "decimals": 18,
+    "logoURI": "../images/bal.svg"
+  },
+  {
+    "address": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+    "name": "ETH Binance Coin",
+    "symbol": "BNB",
+    "decimals": 18,
+    "logoURI": "../images/bnbeth.svg"
+  },
+  {
+    "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
+    "name": "Bancor",
+    "symbol": "BNT",
+    "decimals": 18,
+    "logoURI": "../images/bnt.svg"
+  },
+  {
+    "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+    "name": "B.Protocol",
+    "symbol": "BPRO",
+    "decimals": 18,
+    "logoURI": "../images/bprotocol.svg"
+  },
+  {
+    "address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+    "name": "ETH Binance USD",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "logoURI": "../images/busdeth.svg"
+  },
+  {
+    "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+    "name": "Compound Finance",
+    "symbol": "COMP",
+    "decimals": 18,
+    "logoURI": "../images/comp.svg"
+  },
+  {
+    "address": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+    "name": "Convex Finance",
+    "symbol": "CVX",
+    "decimals": 18,
+    "logoURI": "../images/convex.svg"
+  },
+  {
+    "address": "0x2ba592F78dB6436527729929AAf6c908497cB200",
+    "name": "Cream Finance",
+    "symbol": "CREAM",
+    "decimals": 18,
+    "logoURI": "../images/cream.svg"
+  },
+  {
+    "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    "name": "Curve DAO Token",
+    "symbol": "CRV",
+    "decimals": 18,
+    "logoURI": "../images/crv.svg"
+  },
+  {
+    "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "name": "Dai",
+    "symbol": "DAI",
+    "decimals": 18,
+    "logoURI": "../images/dai.svg"
+  },
+  {
+    "address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+    "name": "DeFiPulse Index",
+    "symbol": "DPI",
+    "decimals": 18,
+    "logoURI": "../images/dpi.svg"
+  },
+  {
+    "address": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+    "name": "dydx",
+    "symbol": "DYDX",
+    "decimals": 18,
+    "logoURI": "../images/dydx.svg"
+  },
+  {
+    "address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+    "name": "Enjin",
+    "symbol": "ENJ",
+    "decimals": 18,
+    "logoURI": "../images/enj.svg"
   },
   {
     "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
     "name": "Ethereum Name Service Token",
     "symbol": "ENS",
     "decimals": 18,
-    "logoURI" : "../images/ens.png"
+    "logoURI" : "../images/ens.svg"
   },
   {
-    "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
-    "name": "Voltage Token",
-    "symbol": "VOLT",
+    "address": "0xf418588522d5dd018b425E472991E52EBBeEEEEE",
+    "name": "Ethereum Name Service Token",
+    "symbol": "PUSH",
     "decimals": 18,
-    "logoURI" : "../images/volt.png"
+    "logoURI" : "../images/epns.svg"
   },
   {
-    "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
-    "name": "Threshold Network Token",
-    "symbol": "T",
+    "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
+    "name": "FEI USD",
+    "symbol": "FEI",
     "decimals": 18,
-    "logoURI": "../images/threshold.svg"
-  },
-  {
-    "address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
-    "name": "Convex Token",
-    "decimals": 18,
-    "symbol": "CVX",
-    "logoURI": "../images/convex.svg"
-  },
-  {
-    "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
-    "name": "Polygon (MATIC)",
-    "symbol": "MATIC",
-    "decimals": 18,
-    "logoURI": "../images/matic.png"
-  },
-  {
-    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-    "name": "Wrapped Ether",
-    "symbol": "WETH",
-    "decimals": 18,
-    "logoURI": "../images/weth.svg"
-  },
-  {
-    "address": "0xf1dc500fde233a4055e25e5bbf516372bc4f6871",
-    "name": "Saddle DAO Token",
-    "symbol": "SDL",
-    "decimals": 18,
-    "logoURI": "../images/saddle.svg"
+    "logoURI": "../images/fei.svg"
   },
   {
     "address": "0x853d955acef822db058eb8505911ed77f175b99e",
@@ -84,66 +203,80 @@
     "logoURI": "../images/lqty.svg"
   },
   {
-    "address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA",
-    "name": "FEI USD",
-    "symbol": "FEI",
+    "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "name": "Lido DAO Token",
+    "symbol": "LDO",
     "decimals": 18,
-    "logoURI": "../images/fei.svg"
+    "logoURI": "../images/lido.svg"
   },
   {
-    "address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
-    "name": "Tribe",
-    "symbol": "TRIBE",
+    "address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
+    "name": "Looks Rare Token",
+    "symbol": "LOOKS",
     "decimals": 18,
-    "logoURI": "../images/tribe.png"
-  },
-  {
-    "address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
-    "name": "Alchemix",
-    "symbol": "ALCX",
-    "decimals": 18,
-    "logoURI": "../images/alcx.png"
-  },
-  {
-    "address": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
-    "name": "Alchemix USD",
-    "symbol": "alUSD",
-    "decimals": 18,
-    "logoURI": "../images/alusd.svg"
-  },
-  {
-    "address": "0x0100546f2cd4c9d97f798ffc9755e47865ff7ee6",
-    "name": "Alchemix ETH",
-    "symbol": "alETH",
-    "decimals": 18,
-    "logoURI": "../images/aleth.svg"
+    "logoURI": "../images/looks.svg"
   },
   {
     "address": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
     "name": "Magic Internet Money",
     "symbol": "MIM",
     "decimals": 18,
-    "logoURI": "../images/mim.png"
+    "logoURI": "../images/mim.svg"
+  },
+  {
+    "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+    "name": "Polygon (MATIC)",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "logoURI": "../images/matic.svg"
+  },
+  {
+    "address": "0xf1dc500fde233a4055e25e5bbf516372bc4f6871",
+    "name": "Saddle DAO Token",
+    "symbol": "SDL",
+    "decimals": 18,
+    "logoURI": "../images/saddle.svg"
   },
   {
     "address": "0x090185f2135308bad17527004364ebcc2d37e5f6",
     "name": "Spell Token",
     "symbol": "SPELL",
     "decimals": 18,
-    "logoURI": "../images/spell.png"
-  },
-  {
-    "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
-    "name": "Lido DAO Token",
-    "symbol": "LDO",
-    "decimals": 18,
-    "logoURI": "../images/lido.png"
+    "logoURI": "../images/spell.svg"
   },
   {
     "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
     "name": "stETH",
     "symbol": "stETH",
     "decimals": 18,
-    "logoURI": "../images/steth.png"
+    "logoURI": "../images/steth.svg"
+  },
+  {
+    "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+    "name": "Threshold Network Token",
+    "symbol": "T",
+    "decimals": 18,
+    "logoURI": "../images/threshold.svg"
+  },
+  {
+    "address": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
+    "name": "Tribe",
+    "symbol": "TRIBE",
+    "decimals": 18,
+    "logoURI": "../images/tribe.svg"
+  },
+  {
+    "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
+    "name": "Voltage Token",
+    "symbol": "VOLT",
+    "decimals": 18,
+    "logoURI" : "../images/volt.svg"
+  },
+  {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "../images/weth.svg"
   }
 ]
