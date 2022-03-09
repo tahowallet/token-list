@@ -36,7 +36,7 @@
   },
   {
     "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
-    "name": "Polygon (MATIC)",
+    "name": "Polygon MATIC",
     "symbol": "MATIC",
     "decimals": 18,
     "logoURI": "../images/matic.png"
