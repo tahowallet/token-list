@@ -145,5 +145,12 @@
     "symbol": "stETH",
     "decimals": 18,
     "logoURI": "../images/steth.png"
+  },
+  {
+    "address": "0xf418588522d5dd018b425E472991E52EBBeEEEEE",
+    "name": "Ethereum Push Notification Service",
+    "symbol": "PUSH",
+    "decimals": 18,
+    "logoURI": "../images/epns.svg"
   }
 ]
