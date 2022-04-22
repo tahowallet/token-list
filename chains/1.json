@@ -11,7 +11,7 @@
     "name": "Ethereum Name Service Token",
     "symbol": "ENS",
     "decimals": 18,
-    "logoURI" : "../images/ens.png"
+    "logoURI" : "../images/ens.svg"
   },
   {
     "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
