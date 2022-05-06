@@ -152,5 +152,12 @@
     "symbol": "PUSH",
     "decimals": 18,
     "logoURI": "../images/epns.svg"
+},
+{
+    "address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+    "name": "Fantom Token",
+    "symbol": "FTM",
+    "decimals": 18,
+    "logoURI": "../images/ftm.png"
   }
 ]
