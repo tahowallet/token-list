@@ -108,10 +108,10 @@ glob("chains/*.json", {}, async function (er, files) {
     process.stdout.write("No Fleek credentials found, using GitHub URLs rather than IPFS...\n")
     tokens = tokens.map((token) => ({
       ...token,
-      logoURI: token["logoURI"].replace(
+      logoURI: token.logoURI ? token["logoURI"].replace(
         /^\.\./,
         "https://github.com/tallycash/token-list/raw/main"
-      )
+      ) : undefined
     }))
   }
 
