@@ -44,7 +44,7 @@ Tally is a community run DAO and welcomes contributions from anyone. If you woul
 
 ` git checkout -b add-0xBitcoin-token `
 
-4. Add the token/s to tallycash.tokenlist.json. The below example shows the ease in adding `OxBitcoin token` to the list.
+4. Add the token/s to the desired chain in the chains folder eg 1.json for ethereum. A detailed list of chains is available [here](https://chainlist.org/). The below example shows the ease in adding `OxBitcoin token` to the list
 
 ```
     "tokens": [
