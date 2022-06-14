@@ -5,7 +5,7 @@
     "symbol": "ETH",
     "decimals": 18,
     "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/eth.svg"
+    "logoURI": "../images/eth.svg"
   },
   {
     "chainId": 137,
@@ -13,7 +13,7 @@
     "symbol": "USDC",
     "decimals": 6,
     "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdc.svg"
+    "logoURI": "../images/usdc.svg"
   },
   {
     "chainId": 137,
@@ -21,7 +21,7 @@
     "symbol": "USDT",
     "decimals": 6,
     "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/usdt.svg"
+    "logoURI": "../images/usdt.svg"
   },
   {
     "chainId": 137,
@@ -29,7 +29,7 @@
     "symbol": "DAI",
     "decimals": 18,
     "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/dai.svg"
+    "logoURI": "../images/dai.svg"
   },
   {
     "chainId": 137,
@@ -37,7 +37,7 @@
     "symbol": "AAVE",
     "decimals": 18,
     "address": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/aave.svg"
+    "logoURI": "../images/aave.svg"
   },
   {
     "chainId": 137,
@@ -45,7 +45,7 @@
     "symbol": "LINK",
     "decimals": 18,
     "address": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/link.svg"
+    "logoURI": "../images/link.svg"
   },
   {
     "chainId": 137,
@@ -53,7 +53,7 @@
     "symbol": "WBTC",
     "decimals": 8,
     "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/wbtc.svg"
+    "logoURI": "../images/wbtc.svg"
   },
   {
     "chainId": 137,
@@ -61,7 +61,7 @@
     "symbol": "UNI",
     "decimals": 18,
     "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/uni.svg"
+    "logoURI": "../images/uni.svg"
   },
   {
     "chainId": 137,
@@ -69,7 +69,7 @@
     "symbol": "QUICK",
     "decimals": 18,
     "address": "0x831753dd7087cac61ab5644b308642cc1c33dc13",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/quick.svg"
+    "logoURI": "../images/quick.svg"
   },
   {
     "chainId": 137,
@@ -77,7 +77,7 @@
     "symbol": "GHST",
     "decimals": 18,
     "address": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
-    "logoURI": "https://polygonscan.com/token/images/aavegotchighst_32.png"
+    "logoURI": "../images/ghst.png"
   },
   {
     "chainId": 137,
@@ -85,7 +85,7 @@
     "symbol": "TEL",
     "decimals": 2,
     "address": "0xdf7837de1f2fa4631d716cf2502f8b230f1dcc32",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/tel.svg"
+    "logoURI": "../images/tel.svg"
   },
   {
     "chainId": 137,
@@ -93,7 +93,7 @@
     "symbol": "EMON",
     "decimals": 18,
     "address": "0xd6a5ab46ead26f49b03bbb1f9eb1ad5c1767974a",
-    "logoURI": "https://polygonscan.com/token/images/ethermontoken2_32.png"
+    "logoURI": "../images/emon.png"
   },
   {
     "chainId": 137,
@@ -101,15 +101,14 @@
     "symbol": "GAME",
     "decimals": 18,
     "address": "0x8d1566569d5b695d44a9a234540f68D393cDC40D",
-    "logoURI": "https://svgshare.com/i/fJw.svg"
+    "logoURI": "../images/game.svg"
   },
   {
     "chainId": 137,
     "name": "Paint",
     "symbol": "PAINT",
     "decimals": 18,
-    "address": "0x7c28F627eA3aEc8B882b51eb1935f66e5b875714",
-    "logoURI": "https://gateway.pinata.cloud/ipfs/QmSqt6RAgNYWq3kJRhEoLquY2xcZ7QXAJGovaeaxmZYCVJ"
+    "address": "0x7c28F627eA3aEc8B882b51eb1935f66e5b875714"
   },
   {
     "chainId": 137,
@@ -117,7 +116,7 @@
     "symbol": "IQ",
     "decimals": 18,
     "address": "0xB9638272aD6998708de56BBC0A290a1dE534a578",
-    "logoURI": "https://www.dropbox.com/sh/g97lq77b9mv9lfz/AABRnKWx9aiv6x8KShkIgDgla/Brain%20Logo%20Design-03.png?dl=0"
+    "logoURI": "../images/iq.png"
   },
   {
     "chainId": 137,
@@ -125,7 +124,7 @@
     "symbol": "BTU",
     "decimals": 18,
     "address": "0xfdc26cda2d2440d0e83cd1dee8e8be48405806dc",
-    "logoURI": "https://btu-protocol.com/images/log-BTU-256w.png"
+    "logoURI": "../images/btu.png"
   },
   {
     "chainId": 137,
@@ -133,7 +132,7 @@
     "symbol": "MOVE",
     "decimals": 18,
     "address": "0x521CddC0CBa84F14c69C1E99249F781AA73Ee0BC",
-    "logoURI": "https://assets.coingecko.com/coins/images/13719/small/o0KIvs7T_400x400.jpg?1617672818"
+    "logoURI": "../images/move.jpg"
   },
   {
     "chainId": 137,
@@ -169,7 +168,7 @@
     "symbol": "SUPERBID",
     "decimals": 18,
     "address": "0xA3860f969075045D82de85B06bB665f93c4BAE32",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/superbid.svg"
+    "logoURI": "../images/superbid.svg"
   },
   {
     "chainId": 137,
@@ -177,7 +176,7 @@
     "symbol": "CTI",
     "decimals": 18,
     "address": "0x8Ba941b64901E306667a287A370F145d98811096",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/cti.svg"
+    "logoURI": "../images/cti.svg"
   },
   {
     "chainId": 137,
@@ -185,7 +184,7 @@
     "symbol": "GOVI",
     "decimals": 18,
     "address": "0x43Df9c0a1156c96cEa98737b511ac89D0e2A1F46",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/govi.svg"
+    "logoURI": "../images/govi.svg"
   },
   {
     "chainId": 137,
@@ -193,7 +192,7 @@
     "symbol": "BRIBE",
     "decimals": 18,
     "address": "0xA9e0CDE4bE86F5DF7e2888753E5F663A41220469",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/bribe.svg"
+    "logoURI": "../images/bribe.svg"
   },
   {
     "chainId": 137,
@@ -208,7 +207,7 @@
     "symbol": "YOP",
     "decimals": 8,
     "address": "0x103308793661879166464cD0d0370Ac3b8A2A1cB",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/yop.svg"
+    "logoURI": "../images/yop.svg"
   },
   {
     "chainId": 137,
@@ -237,7 +236,7 @@
     "symbol": "NFTP",
     "decimals": 18,
     "address": "0xf7d9e281c5Cb4C6796284C5b663b3593D2037aF2",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/nftp.svg"
+    "logoURI": "../images/nftp.svg"
   },
   {
     "chainId": 137,
@@ -245,7 +244,7 @@
     "symbol": "WISE",
     "decimals": 18,
     "address": "0xB77e62709e39aD1cbeEBE77cF493745AeC0F453a",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/wise.svg"
+    "logoURI": "../images/wise.svg"
   },
   {
     "chainId": 137,
@@ -253,7 +252,7 @@
     "symbol": "CC10",
     "decimals": 18,
     "address": "0x9c49BA0212Bb5Db371e66b59D1565b7c06E4894e",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/cc10.svg"
+    "logoURI": "../images/cc10.svg"
   },
   {
     "chainId": 137,
@@ -261,7 +260,7 @@
     "symbol": "ERN",
     "decimals": 18,
     "address": "0x0E50BEA95Fe001A370A4F1C220C49AEdCB982DeC",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/ern.svg"
+    "logoURI": "../images/ern.svg"
   },
   {
     "chainId": 137,
@@ -269,7 +268,7 @@
     "symbol": "DEGEN",
     "decimals": 18,
     "address": "0x8a2870fb69A90000D6439b7aDfB01d4bA383A415",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/degen.svg"
+    "logoURI": "../images/degen.svg"
   },
   {
     "chainId": 137,
@@ -277,7 +276,7 @@
     "symbol": "MYST",
     "decimals": 18,
     "address": "0x1379E8886A944d2D9d440b3d88DF536Aea08d9F3",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/myst.svg"
+    "logoURI": "../images/myst.svg"
   },
   {
     "chainId": 137,
@@ -299,7 +298,7 @@
     "symbol": "DRC",
     "decimals": 0,
     "address": "0xFeD16c746CB5BFeD009730f9E3e6A673006105c7",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/drc.svg"
+    "logoURI": "../images/drc.svg"
   },
   {
     "chainId": 137,
@@ -307,7 +306,7 @@
     "symbol": "DSLA",
     "decimals": 18,
     "address": "0xa0E390e9ceA0D0e8cd40048ced9fA9EA10D71639",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/dsla.svg"
+    "logoURI": "../images/dsla.svg"
   },
   {
     "chainId": 137,
@@ -315,7 +314,7 @@
     "symbol": "DEFI5",
     "decimals": 18,
     "address": "0x42435F467D33e5C4146a4E8893976ef12BBCE762",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/defi5.svg"
+    "logoURI": "../images/defi5.svg"
   },
   {
     "chainId": 137,
@@ -323,7 +322,7 @@
     "symbol": "SUPER",
     "decimals": 18,
     "address": "0xa1428174F516F527fafdD146b883bB4428682737",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/super.svg"
+    "logoURI": "../images/super.svg"
   },
   {
     "chainId": 137,
@@ -331,7 +330,7 @@
     "symbol": "CFi",
     "decimals": 18,
     "address": "0xeCf8f2FA183b1C4d2A269BF98A54fCe86C812d3e",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/cfi.svg"
+    "logoURI": "../images/cfi.svg"
   },
   {
     "chainId": 137,
@@ -339,7 +338,7 @@
     "symbol": "PLOT",
     "decimals": 18,
     "address": "0xe82808eaA78339b06a691fd92E1Be79671cAd8D3",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/plot.svg"
+    "logoURI": "../images/plot.svg"
   },
   {
     "chainId": 137,
@@ -354,7 +353,7 @@
     "symbol": "UBT",
     "decimals": 8,
     "address": "0x7FBc10850caE055B27039aF31bD258430e714c62",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/ubt.svg"
+    "logoURI": "../images/ubt.svg"
   },
   {
     "chainId": 137,
@@ -369,7 +368,7 @@
     "symbol": "UFT",
     "decimals": 18,
     "address": "0x5B4CF2C120A9702225814E18543ee658c5f8631e",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/uft.svg"
+    "logoURI": "../images/uft.svg"
   },
   {
     "chainId": 137,
@@ -391,7 +390,7 @@
     "symbol": "AGA",
     "decimals": 4,
     "address": "0x033d942A6b495C4071083f4CDe1f17e986FE856c",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/aga.svg"
+    "logoURI": "../images/aga.svg"
   },
   {
     "chainId": 137,
@@ -399,7 +398,7 @@
     "symbol": "CTSI",
     "decimals": 18,
     "address": "0x2727Ab1c2D22170ABc9b595177B2D5C6E1Ab7B7B",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/ctsi.svg"
+    "logoURI": "../images/ctsi.svg"
   },
   {
     "chainId": 137,
@@ -407,7 +406,7 @@
     "symbol": "ZUT",
     "decimals": 18,
     "address": "0xe86E8beb7340659DDDCE61727E500e3A5aD75a90",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/zut.svg"
+    "logoURI": "../images/zut.svg"
   },
   {
     "chainId": 137,
@@ -415,7 +414,7 @@
     "symbol": "FXS",
     "decimals": 18,
     "address": "0x3e121107F6F22DA4911079845a470757aF4e1A1b",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/fxs.svg"
+    "logoURI": "../images/fxs.svg"
   },
   {
     "chainId": 137,
@@ -423,7 +422,7 @@
     "symbol": "FRAX",
     "decimals": 18,
     "address": "0x104592a158490a9228070E0A8e5343B499e125D0",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/frax.svg"
+    "logoURI": "../images/frax.svg"
   },
   {
     "chainId": 137,
@@ -438,7 +437,7 @@
     "symbol": "JPYC",
     "decimals": 18,
     "address": "0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/jpyc.svg"
+    "logoURI": "../images/jpyc.svg"
   },
   {
     "chainId": 137,
@@ -446,7 +445,7 @@
     "symbol": "VISION",
     "decimals": 18,
     "address": "0x034b2090b579228482520c589dbD397c53Fc51cC",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/vision.svg"
+    "logoURI": "../images/vision.svg"
   },
   {
     "chainId": 137,
@@ -454,7 +453,7 @@
     "symbol": "CEL",
     "decimals": 4,
     "address": "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/cel.svg"
+    "logoURI": "../images/cel.svg"
   },
   {
     "chainId": 137,
@@ -462,7 +461,7 @@
     "symbol": "SX",
     "decimals": 18,
     "address": "0x840195888Db4D6A99ED9F73FcD3B225Bb3cB1A79",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/sx.svg"
+    "logoURI": "../images/sx.svg"
   },
   {
     "chainId": 137,
@@ -484,7 +483,7 @@
     "symbol": "HEX",
     "decimals": 8,
     "address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/hex.svg"
+    "logoURI": "../images/hex.svg"
   },
   {
     "chainId": 137,
@@ -492,7 +491,7 @@
     "symbol": "OPU",
     "decimals": 18,
     "address": "0x7ff2FC33E161E3b1C6511B934F0209D304267857",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/opu.svg"
+    "logoURI": "../images/opu.svg"
   },
   {
     "chainId": 137,
@@ -507,7 +506,7 @@
     "symbol": "IGG",
     "decimals": 6,
     "address": "0xe6FC6C7CB6d2c31b359A49A33eF08aB87F4dE7CE",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/igg.svg"
+    "logoURI": "../images/igg.svg"
   },
   {
     "chainId": 137,
@@ -515,7 +514,7 @@
     "symbol": "MANA",
     "decimals": 18,
     "address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4",
-    "logoURI": "https://wallet-asset.matic.network/img/tokens/mana.svg"
+    "logoURI": "../images/mana.svg"
   },
   {
     "chainId": 137,
