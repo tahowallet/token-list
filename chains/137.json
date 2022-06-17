@@ -76,8 +76,7 @@
     "name": "Aavegotchi GHST Token",
     "symbol": "GHST",
     "decimals": 18,
-    "address": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
-    "logoURI": "../images/ghst.png"
+    "address": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7"
   },
   {
     "chainId": 137,
@@ -92,8 +91,7 @@
     "name": "EthermonToken",
     "symbol": "EMON",
     "decimals": 18,
-    "address": "0xd6a5ab46ead26f49b03bbb1f9eb1ad5c1767974a",
-    "logoURI": "../images/emon.png"
+    "address": "0xd6a5ab46ead26f49b03bbb1f9eb1ad5c1767974a"
   },
   {
     "chainId": 137,
@@ -115,16 +113,14 @@
     "name": "IQ",
     "symbol": "IQ",
     "decimals": 18,
-    "address": "0xB9638272aD6998708de56BBC0A290a1dE534a578",
-    "logoURI": "../images/iq.png"
+    "address": "0xB9638272aD6998708de56BBC0A290a1dE534a578"
   },
   {
     "chainId": 137,
     "name": "BTU Protocol",
     "symbol": "BTU",
     "decimals": 18,
-    "address": "0xfdc26cda2d2440d0e83cd1dee8e8be48405806dc",
-    "logoURI": "../images/btu.png"
+    "address": "0xfdc26cda2d2440d0e83cd1dee8e8be48405806dc"
   },
   {
     "chainId": 137,
