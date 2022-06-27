@@ -158,6 +158,6 @@
     "name": "Rocket Pool ETH",
     "symbol": "RETH",
     "decimals": 18,
-    "logoURI": "../images/reth.png" 
+    "logoURI": "../images/reth.png"
   }
 ]
