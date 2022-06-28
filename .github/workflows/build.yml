@@ -30,3 +30,9 @@ jobs:
       with:
         name: tallycash.tokenlist.json
         path: build/tallycash.tokenlist.json
+    - name:  Automated Version Bump
+      uses:  'phips28/gh-action-bump-version@master'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      with:
+        minor-wording:  'add-token'
