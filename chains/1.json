@@ -11,14 +11,14 @@
     "name": "Ethereum Name Service Token",
     "symbol": "ENS",
     "decimals": 18,
-    "logoURI" : "../images/ens.svg"
+    "logoURI": "../images/ens.svg"
   },
   {
     "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
     "name": "Voltage Token",
     "symbol": "VOLT",
     "decimals": 18,
-    "logoURI" : "../images/volt.png"
+    "logoURI": "../images/volt.png"
   },
   {
     "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
@@ -180,5 +180,19 @@
     "symbol": "RETH",
     "decimals": 18,
     "logoURI": "../images/reth.png"
+  },
+  {
+    "address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+    "name": "Fantom",
+    "symbol": "FTM",
+    "decimals": 18,
+    "logoURI": "../images/ftm.png"
+  },
+  {
+    "address": "0x93Dede06AE3B5590aF1d4c111BC54C3f717E4b35",
+    "name": "Alchemix governance token",
+    "symbol": "gALCX",
+    "decimals": 18,
+    "logoURI": "../images/alcx.png"
   }
 ]
