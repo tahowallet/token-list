@@ -34,17 +34,22 @@ The intention of the Tally Cash is list is to empower users to add tokens that t
 
 Tally is a community run DAO and welcomes contributions from anyone. If you would like to add tokens to this list, you may do the following steps:
 
-1. Fork this [repo](https://github.com/tallycash/token-list)
+1. Submit an issue [here](https://github.com/tallycash/token-list/issues) using the 'add a new token' issue template. 
+
+* If you are confortable creating a Pull Request, you can follow through with step 2.
+* If you do not want to create a Pull Request, please visit the Tally Ho [Discord](https://discord.gg/ATXWnvCA) and post in the #token-list-den channel letting the DAO know about your request.  
+
+2. Fork this [repo](https://github.com/tallycash/token-list)
 
 `git clone https://github.com/tallycash/token-list`
 
-2. Verify the token is not already on the list
+3. Verify the token is not already on the list
 
-3. Create a branch add-[token you are adding]-token. 
+4. Create a branch add-[token you are adding]-token. 
 
 ` git checkout -b add-0xBitcoin-token `
 
-4. Add the token/s to tallycash.tokenlist.json. The below example shows the ease in adding `OxBitcoin token` to the list.
+5. Add the token/s to the desired chain in the chains folder eg 1.json for ethereum. A detailed list of chains is available [here](https://chainlist.org/). The below example shows the ease in adding `OxBitcoin token` to the list
 
 ```
     "tokens": [

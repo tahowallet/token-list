@@ -173,5 +173,12 @@
     "symbol": "GTC",
     "decimals": 18,
     "logoURI": "../images/gtc.svg"
+  },
+  {
+    "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "name": "Rocket Pool ETH",
+    "symbol": "RETH",
+    "decimals": 18,
+    "logoURI": "../images/reth.png"
   }
 ]
