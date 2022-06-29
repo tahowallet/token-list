@@ -11,7 +11,7 @@
     "name": "Ethereum Name Service Token",
     "symbol": "ENS",
     "decimals": 18,
-    "logoURI": "../images/ens.png"
+    "logoURI": "../images/ens.svg"
   },
   {
     "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
@@ -152,6 +152,27 @@
     "symbol": "PUSH",
     "decimals": 18,
     "logoURI": "../images/epns.svg"
+  },
+  {
+    "address": "0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC",
+    "name": "Keep Network Token",
+    "symbol": "KEEP",
+    "decimals": 18,
+    "logoURI": "../images/keep.svg"
+  },
+  {
+    "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "name": "Aave Token",
+    "symbol": "AAVE",
+    "decimals": 18,
+    "logoURI": "../images/aave.svg"
+  },
+  {
+    "address": "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
+    "name": "Gitcoin Token",
+    "symbol": "GTC",
+    "decimals": 18,
+    "logoURI": "../images/gtc.svg"
   },
   {
     "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
