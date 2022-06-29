@@ -18,7 +18,7 @@ body:
     validations:
       required: false
   - type: input
-    id: token name
+    id: token-name
     attributes:
       label: Token Name
       description: Name of the token to be added
@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: input
-    id: chain id
+    id: chain-id
     attributes:
       label: Chain Id
       description: Chain Id of the token to be added
@@ -34,7 +34,7 @@ body:
     validations:
       required: true
   - type: input
-    id: token symbol
+    id: token-symbol
     attributes:
       label: Token Symbol
       description: Symbol of the token to be added
@@ -50,7 +50,7 @@ body:
     validations:
       required: true
   - type: input
-    id: contract address
+    id: contract-address
     attributes:
       label: Contract Address
       description: What is the contract address of the token
@@ -58,7 +58,7 @@ body:
     validations:
       required: true
   - type: input
-    id: image link
+    id: image-link
     attributes:
       label: Image Link
       description: Do you have a link to an logo of the token symbol
@@ -66,7 +66,7 @@ body:
     validations:
       required: false   
   - type: textarea
-    id: other info
+    id: other-info
     attributes:
       label: Other Information?
       description: Is there any other information that we should be aware of?
