@@ -17,7 +17,7 @@
   },
   {
     "chainId": 137,
-    "name": "Tether USD",
+    "name": "Tether USD - PoS",
     "symbol": "USDT",
     "decimals": 6,
     "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
@@ -33,7 +33,7 @@
   },
   {
     "chainId": 137,
-    "name": "Aave",
+    "name": "Aave - PoS",
     "symbol": "AAVE",
     "decimals": 18,
     "address": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
@@ -49,7 +49,7 @@
   },
   {
     "chainId": 137,
-    "name": "Wrapped BTC",
+    "name": "Wrapped BTC - PoS",
     "symbol": "WBTC",
     "decimals": 8,
     "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
@@ -57,7 +57,7 @@
   },
   {
     "chainId": 137,
-    "name": "Uniswap",
+    "name": "Uniswap - PoS",
     "symbol": "UNI",
     "decimals": 18,
     "address": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
@@ -100,13 +100,6 @@
     "decimals": 18,
     "address": "0x8d1566569d5b695d44a9a234540f68D393cDC40D",
     "logoURI": "../images/game.svg"
-  },
-  {
-    "chainId": 137,
-    "name": "Paint",
-    "symbol": "PAINT",
-    "decimals": 18,
-    "address": "0x7c28F627eA3aEc8B882b51eb1935f66e5b875714"
   },
   {
     "chainId": 137,
@@ -168,7 +161,7 @@
   },
   {
     "chainId": 137,
-    "name": "ClinTex",
+    "name": "ClinTex - PoS",
     "symbol": "CTI",
     "decimals": 18,
     "address": "0x8Ba941b64901E306667a287A370F145d98811096",
@@ -406,7 +399,7 @@
   },
   {
     "chainId": 137,
-    "name": "Frax Share",
+    "name": "Frax Share - PoS",
     "symbol": "FXS",
     "decimals": 18,
     "address": "0x3e121107F6F22DA4911079845a470757aF4e1A1b",
@@ -414,7 +407,7 @@
   },
   {
     "chainId": 137,
-    "name": "Frax",
+    "name": "Frax - PoS",
     "symbol": "FRAX",
     "decimals": 18,
     "address": "0x104592a158490a9228070E0A8e5343B499e125D0",
@@ -514,7 +507,7 @@
   },
   {
     "chainId": 137,
-    "name": "Yield",
+    "name": "Yield - PoS",
     "symbol": "YLD",
     "decimals": 18,
     "address": "0x4cebdbcb286101a17d3ea1f7fe7bbded2b2053dd"
