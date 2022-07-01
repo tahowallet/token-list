@@ -73,7 +73,7 @@
   },
   {
     "chainId": 137,
-    "name": "Aavegotchi GHST Token",
+    "name": "Aavegotchi GHST Token - PoS",
     "symbol": "GHST",
     "decimals": 18,
     "address": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7"
@@ -158,14 +158,6 @@
     "decimals": 18,
     "address": "0xA3860f969075045D82de85B06bB665f93c4BAE32",
     "logoURI": "../images/superbid.svg"
-  },
-  {
-    "chainId": 137,
-    "name": "ClinTex - PoS",
-    "symbol": "CTI",
-    "decimals": 18,
-    "address": "0x8Ba941b64901E306667a287A370F145d98811096",
-    "logoURI": "../images/cti.svg"
   },
   {
     "chainId": 137,
