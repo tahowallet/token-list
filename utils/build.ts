@@ -75,15 +75,6 @@ glob("chains/*.json", {}, async function (er, files) {
         process.stderr.write(`Invalid token in file, no address - ${f} - ${token}`)
         process.exit(EX_DATAERR)
       }
-      if(!("logoURI" in token)) {
-        process.stderr.write(`Invalid token in file, no logoURI - ${f} - ${token}`)
-        process.exit(EX_DATAERR)
-      }
-      const localTokenPath = path.resolve(__dirname, "../chains", token["logoURI"])
-      if(!fs.existsSync(localTokenPath)) {
-        process.stderr.write(`Invalid token in file, can't find logo image - ${f} - ${token}`)
-        process.exit(EX_DATAERR)
-      }
 
       tokens.push({
         ...token,
@@ -117,10 +108,10 @@ glob("chains/*.json", {}, async function (er, files) {
     process.stdout.write("No Fleek credentials found, using GitHub URLs rather than IPFS...\n")
     tokens = tokens.map((token) => ({
       ...token,
-      logoURI: token["logoURI"].replace(
+      logoURI: token.logoURI ? token["logoURI"].replace(
         /^\.\./,
         "https://github.com/tallycash/token-list/raw/main"
-      )
+      ) : undefined
     }))
   }
 
