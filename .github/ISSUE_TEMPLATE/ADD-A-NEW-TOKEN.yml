@@ -1,0 +1,84 @@
+name: Add a new token
+description: Add a new token to the Tally Ho token list
+title: "[TOKEN REQUEST]: "
+labels: ["add-token", "request"]
+assignees:
+  - 0xzoz
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add a token to the Tally Ho token list. Please fill in all the details below and either create a PR mentioning this issue or alternatively a member of the Token-List den will add your request!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com or discord Id
+    validations:
+      required: false
+  - type: input
+    id: token-name
+    attributes:
+      label: Token Name
+      description: Name of the token to be added
+      placeholder: eg. Ethereum
+    validations:
+      required: true
+  - type: input
+    id: chain-id
+    attributes:
+      label: Chain Id
+      description: Chain Id of the token to be added
+      placeholder: eg. 1
+    validations:
+      required: true
+  - type: input
+    id: token-symbol
+    attributes:
+      label: Token Symbol
+      description: Symbol of the token to be added
+      placeholder: eg. ETH
+    validations:
+      required: true
+  - type: input
+    id: decimals
+    attributes:
+      label: Decimals
+      description: How many decimals does the token have
+      placeholder: eg. 18
+    validations:
+      required: true
+  - type: input
+    id: contract-address
+    attributes:
+      label: Contract Address
+      description: What is the contract address of the token
+      placeholder: eg. 0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae
+    validations:
+      required: true
+  - type: input
+    id: image-link
+    attributes:
+      label: Image Link
+      description: Do you have a link to an logo of the token symbol
+      placeholder: eg. https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880
+    validations:
+      required: false   
+  - type: textarea
+    id: other-info
+    attributes:
+      label: Other Information?
+      description: Is there any other information that we should be aware of?
+      placeholder: This token rocks!
+      value: "This token rocks!"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Have you verified that the token does not already exist on the Tally Ho token list or any of the other token lists we aggregate?
+      description: By checking this box you confirm the token does not already exist
+      options:
+        - label: I agree the token is not on the token list already.
+          required: true
