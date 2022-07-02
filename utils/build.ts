@@ -87,6 +87,9 @@ glob("chains/*.json", {}, async function (er, files) {
   if(process.env.FLEEK_STORAGE_API_KEY && process.env.FLEEK_STORAGE_API_SECRET) {
     process.stdout.write("Uploading token logos to IPFS...\n")
     tokens = await Promise.all(tokens.map(async (token) => {
+      if (!token.logoURI) {
+        return token
+      }
       const localTokenPath = path.resolve(__dirname, "../chains", token["logoURI"])
       const uploadRequest = {
         apiKey: process.env.FLEEK_STORAGE_API_KEY,
