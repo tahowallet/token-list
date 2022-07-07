@@ -120,8 +120,7 @@
     "name": "Move",
     "symbol": "MOVE",
     "decimals": 18,
-    "address": "0x521CddC0CBa84F14c69C1E99249F781AA73Ee0BC",
-    "logoURI": "../images/move.jpg"
+    "address": "0x521CddC0CBa84F14c69C1E99249F781AA73Ee0BC"
   },
   {
     "chainId": 137,
