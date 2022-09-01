@@ -147,6 +147,13 @@
     "logoURI": "../images/steth.png"
   },
   {
+    "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+    "name": "stMATIC",
+    "symbol": "stMATIC",
+    "decimals": 18,
+    "logoURI": "../images/stmatic.png"
+  },
+  {
     "address": "0xf418588522d5dd018b425E472991E52EBBeEEEEE",
     "name": "Ethereum Push Notification Service",
     "symbol": "PUSH",

@@ -544,5 +544,12 @@
     "symbol": "DMT",
     "decimals": 18,
     "address": "0xd28449bb9bb659725accad52947677cce3719fd7"
+  },
+  {
+    "chainId": 137,
+    "name": "Staked MATIC (PoS)",
+    "symbol": "stMATIC",
+    "decimals": 18,
+    "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4"
   }
 ]
