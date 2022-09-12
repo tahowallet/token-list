@@ -151,7 +151,7 @@
     "name": "stMATIC",
     "symbol": "stMATIC",
     "decimals": 18,
-    "logoURI": "../images/stmatic.png"
+    "logoURI": "../images/stmatic.svg"
   },
   {
     "address": "0xf418588522d5dd018b425E472991E52EBBeEEEEE",
