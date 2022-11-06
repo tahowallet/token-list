@@ -230,4 +230,11 @@
     "decimals": 18,
     "logoURI": "../images/veogv.svg"
   }
+  {
+    "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+    "name": "tBTC v2",
+    "symbol": "tBTCv2",
+    "decimals": 18,
+    "logoURI": "../images/tBTCv2.png"
+  }
 ]
