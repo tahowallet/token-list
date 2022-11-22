@@ -1,0 +1,49 @@
+[
+  {
+    "address": "0x0057ac2d777797d31cd3f8f13bf5e927571d6ad0",
+    "symbol": "MOON",
+    "name": "Moons",
+    "decimals": 18
+  },
+  {
+    "address": "0x6dcb98f460457fe4952e12779ba852f82ecc62c1",
+    "symbol": "BRICK",
+    "name": "Bricks",
+    "decimals": 18
+  },
+  {
+    "address": "0x750ba8b76187092b0d1e87e28daaf484d1b5273b",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6,
+    "logoURI": "../images/usdc.svg"
+  },
+  {
+    "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+    "symbol": "DAI",
+    "name": "Dai Stablecoin",
+    "decimals": 18,
+    "logoURI": "../images/dai.svg"
+  },
+  {
+    "address": "0x722e8bdd2ce80a4422e880164f2079488e115365",
+    "symbol": "WETH",
+    "name": "Wrapped Ethereum",
+    "decimals": 18,
+    "logoURI": "../images/weth.svg"
+  },
+  {
+    "address": "0x1d05e4e72cd994cdf976181cfb0707345763564d",
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "decimals": 18,
+    "logoURI": "../images/wbtc.svg"
+  },
+  {
+    "address": "0x52484e1ab2e2b22420a25c20fa49e173a26202cd",
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 18,
+    "logoURI": "../images/usdt.svg"
+  }
+]
