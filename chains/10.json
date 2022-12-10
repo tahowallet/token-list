@@ -1,0 +1,9 @@
+[
+  {
+    "address": "0x920Cf626a271321C151D027030D5d08aF699456b",
+    "name": "Kwenta",
+    "symbol": "KWENTA",
+    "decimals": 18,
+    "logoURI": "../images/kwenta.png"
+  }
+]
