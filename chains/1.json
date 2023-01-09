@@ -236,5 +236,12 @@
     "symbol": "ROOK",
     "decimals": 18,
     "logoURI": "../images/rook.png"
+  },
+  {
+    "address": "0xb5588c411ba0bb7d38865fdc51d082d004e519f7",
+    "name": "Wait Token",
+    "symbol": "WAIT",
+    "decimals": 18,
+    "logoURI": "../images/wait.png"
   }
 ]
