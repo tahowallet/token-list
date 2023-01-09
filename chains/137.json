@@ -558,5 +558,12 @@
     "symbol": "FYH",
     "decimals": 18,
     "logoURI": "../images/fuyoh.png"
+  },
+  {
+    "address": "0x0266F4F08D82372CF0FcbCCc0Ff74309089c74d1",
+    "name": "Rocket Pool ETH",
+    "symbol": "rETH",
+    "decimals": 18,
+    "logoURI": "../images/reth.svg"
   }
 ]
