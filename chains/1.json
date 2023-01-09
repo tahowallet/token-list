@@ -257,5 +257,12 @@
     "symbol": "HFT",
     "decimals": 18,
     "logoURI": "../images/hft.png"
+  },
+  {
+    "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+    "name": "Stargate Finance",
+    "symbol": "STG",
+    "decimals": 18,
+    "logoURI": "../images/stg.png"
   }
 ]
