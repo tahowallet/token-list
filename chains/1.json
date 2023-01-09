@@ -229,5 +229,12 @@
     "symbol": "veOGV",
     "decimals": 18,
     "logoURI": "../images/veogv.svg"
+  },
+  {
+    "address": "0xfa5047c9c78b8877af97bdcb85db743fd7313d4a",
+    "name": "Rook Governance Token",
+    "symbol": "ROOK",
+    "decimals": 18,
+    "logoURI": "../images/rook.png"
   }
 ]
