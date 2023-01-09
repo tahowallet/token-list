@@ -243,5 +243,12 @@
     "symbol": "WAIT",
     "decimals": 18,
     "logoURI": "../images/wait.png"
+  },
+  {
+    "address": "0x3496b523e5c00a4b4150d6721320cddb234c3079",
+    "name": "NUM Token",
+    "symbol": "NUM",
+    "decimals": 18,
+    "logoURI": "../images/num.png"
   }
 ]
