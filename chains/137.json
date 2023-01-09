@@ -551,5 +551,12 @@
     "symbol": "stMATIC",
     "decimals": 18,
     "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4"
+  },
+  {
+    "address": "0x0d450bf37Ec899cCA90ede124b3E69C9Ae2F2F1C",
+    "name": "FuYoH",
+    "symbol": "FYH",
+    "decimals": 18,
+    "logoURI": "../images/fuyoh.png"
   }
 ]
