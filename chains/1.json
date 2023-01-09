@@ -250,5 +250,12 @@
     "symbol": "NUM",
     "decimals": 18,
     "logoURI": "../images/num.png"
+  },
+  {
+    "address": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc",
+    "name": "Hashflow",
+    "symbol": "HFT",
+    "decimals": 18,
+    "logoURI": "../images/hft.png"
   }
 ]
