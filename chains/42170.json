@@ -51,6 +51,6 @@
     "symbol": "rETH",
     "name": "Rocket Pool ETH",
     "decimals": 18,
-    "logoURI": "../images/reth.svg"
+    "logoURI": "../images/reth.png"
   }
 ]
