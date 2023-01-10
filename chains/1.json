@@ -285,5 +285,12 @@
     "symbol": "ETHBTCMom",
     "decimals": 18,
     "logoURI": ""
+  },
+  {
+    "address": "0x6b7f87279982d919Bbf85182DDeAB179B366D8f2",
+    "name": "ETH-BTC Trend",
+    "symbol": "ETHBTCTrend",
+    "decimals": 18,
+    "logoURI": ""
   }
 ]
