@@ -1,9 +1,16 @@
 [
-{
-    "address": "0xb5588c411ba0bb7d38865fdc51d082d004e519f7",
-    "name": "Rocket Pool ETH",
-    "symbol": "rETH",
+  {
+      "address": "0xb5588c411ba0bb7d38865fdc51d082d004e519f7",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "../images/reth.svg"
+  },
+  {
+    "address": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
+    "name": "Hop Protocol",
+    "symbol": "HOP",
     "decimals": 18,
-    "logoURI": "../images/reth.svg"
+    "logoURI": "../images/hop.png"
   }
 ]
