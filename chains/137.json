@@ -565,5 +565,12 @@
     "symbol": "rETH",
     "decimals": 18,
     "logoURI": "../images/reth.svg"
+  },
+  {
+    "address": "0x9C2A7aC762ea6E33cfc380A5C802919b496c9e44",
+    "name": "Staked SPORK",
+    "symbol": "sSPORK",
+    "decimals": 18,
+    "logoURI": "../images/sspork.png"
   }
 ]
