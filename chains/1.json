@@ -229,5 +229,68 @@
     "symbol": "veOGV",
     "decimals": 18,
     "logoURI": "../images/veogv.svg"
+  },
+  {
+    "address": "0xfa5047c9c78b8877af97bdcb85db743fd7313d4a",
+    "name": "Rook Governance Token",
+    "symbol": "ROOK",
+    "decimals": 18,
+    "logoURI": "../images/rook.png"
+  },
+  {
+    "address": "0xb5588c411ba0bb7d38865fdc51d082d004e519f7",
+    "name": "Wait Token",
+    "symbol": "WAIT",
+    "decimals": 18,
+    "logoURI": "../images/wait.png"
+  },
+  {
+    "address": "0x3496b523e5c00a4b4150d6721320cddb234c3079",
+    "name": "NUM Token",
+    "symbol": "NUM",
+    "decimals": 18,
+    "logoURI": "../images/num.png"
+  },
+  {
+    "address": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc",
+    "name": "Hashflow",
+    "symbol": "HFT",
+    "decimals": 18,
+    "logoURI": "../images/hft.png"
+  },
+  {
+    "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+    "name": "Stargate Finance",
+    "symbol": "STG",
+    "decimals": 18,
+    "logoURI": "../images/stg.png"
+  },
+  {
+    "address": "0x5fAa989Af96Af85384b8a938c2EdE4A7378D9875",
+    "name": "Galxe",
+    "symbol": "GAL",
+    "decimals": 18,
+    "logoURI": "../images/gal.png"
+  },
+  {
+    "address": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+    "name": "Rocket Pool",
+    "symbol": "RPL",
+    "decimals": 18,
+    "logoURI": "../images/rpl.png"
+  },
+  {
+    "address": "00x6E2dAc3b9E9ADc0CbbaE2D0B9Fd81952a8D33872",
+    "name": "ETH-BTC Momentum",
+    "symbol": "ETHBTCMom",
+    "decimals": 18,
+    "logoURI": ""
+  },
+  {
+    "address": "0x6b7f87279982d919Bbf85182DDeAB179B366D8f2",
+    "name": "ETH-BTC Trend",
+    "symbol": "ETHBTCTrend",
+    "decimals": 18,
+    "logoURI": ""
   }
 ]
