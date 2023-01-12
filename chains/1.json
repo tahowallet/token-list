@@ -293,4 +293,12 @@
     "decimals": 18,
     "logoURI": ""
   }
+{
+{
+    "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+    "name": "tBTC",
+    "symbol": "tBTC",
+    "decimals": 18,
+    "logoURI": "../images/tBTCv2.png"
+  }
 ]
