@@ -1,8 +1,8 @@
 # README token-list
 
-A community-maintained token list for Tally Ho, the community-owned wallet.
+A community-maintained token list for Taho, the community-owned wallet.
 
-The JSON schema represents the technical specification for a token list which can be used in a dApp interface, such as the Tally Ho wallet.
+The JSON schema represents the technical specification for a token list which can be used in a dApp interface, such as the Taho wallet.
 
 The schema is based upon the [uniswap token list implementation standard](https://github.com/Uniswap/token-lists)
 
@@ -21,26 +21,26 @@ Tokens on token lists, and token lists themselves, are tagged so that users can 
 
 The JSON schema ID is [https://uniswap.org/tokenlist.schema.json](https://uniswap.org/tokenlist.schema.json)
 
-## Tally Ho Lists
+## Taho Lists
 
-Tally Ho aggregates the tokens that are reputable and vetoed by using some of the lists from well establised protocols like [Uniswap](https://uniswap.org/) , [Yearn](https://yearn.finance/), [Messari](https://messari.io/) and more.
+Taho aggregates the tokens that are reputable and vetoed by using some of the lists from well establised protocols like [Uniswap](https://uniswap.org/) , [Yearn](https://yearn.finance/), [Messari](https://messari.io/) and more.
 
-The lists can be found [here](https://github.com/tallycash/extension/blob/main/background/services/preferences/defaults.ts)
+The lists can be found [here](https://github.com/tahowallet/extension/blob/main/background/services/preferences/defaults.ts)
 
-The intention of the Tally Ho list is to empower users to add tokens that the community cares about, are added to these lists slowly or that have bad metadata on other lists.
+The intention of the Taho list is to empower users to add tokens that the community cares about, are added to these lists slowly or that have bad metadata on other lists.
 
-## Adding a token to Tally Ho token list
+## Adding a token to Taho token list
 
-Tally Ho is a community run DAO and welcomes contributions from anyone. If you would like to add tokens to this list, you may do the following steps:
+Taho is a community run DAO and welcomes contributions from anyone. If you would like to add tokens to this list, you may do the following steps:
 
-1. Submit an issue [here](https://github.com/tallycash/token-list/issues) using the 'add a new token' issue template.
+1. Submit an issue [here](https://github.com/tahowallet/token-list/issues) using the 'add a new token' issue template.
 
 - If you are confortable creating a Pull Request, you can follow through with step 2.
-- If you do not want to create a Pull Request, please visit the Tally Ho [Discord](https://discord.gg/ATXWnvCA) and post in the #token-list-den channel letting the DAO know about your request.
+- If you do not want to create a Pull Request, please visit the Taho [Discord](https://discord.gg/ATXWnvCA) and post in the #token-list-den channel letting the DAO know about your request.
 
-2. Fork this [repo](https://github.com/tallycash/token-list)
+2. Fork this [repo](https://github.com/tahowallet/token-list)
 
-`git clone https://github.com/tallycash/token-list`
+`git clone https://github.com/tahowallet/token-list`
 
 3. Verify the token is not already on the list
 
@@ -91,7 +91,7 @@ git push --set-upstream origin add-[token you are adding]-token
 
 ## Adding a token image
 
-Although not mandatory, it is good to add a token image to have the appropriate logo appear in the Tally Ho wallet.
+Although not mandatory, it is good to add a token image to have the appropriate logo appear in the Taho wallet.
 
 The image should be in png format and should have 128 × 128 dimensions. The naming should be `<tokensymbol>.png` and a link to the image should be located in
 the token schema that you are adding. Below is an example of adding LOOKS token.
@@ -102,6 +102,6 @@ the token schema that you are adding. Below is an example of adding LOOKS token.
         "name": "Looks Token",
         "symbol": "LOOKS",
         "decimals": 18,
-        "logoURI" : "https://github.com/tallycash/token-list/images/looks.png"
+        "logoURI" : "https://github.com/tahowallet/token-list/images/looks.png"
       }
 ```
