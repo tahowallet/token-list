@@ -280,7 +280,7 @@
     "logoURI": "../images/rpl.png"
   },
   {
-    "address": "00x6E2dAc3b9E9ADc0CbbaE2D0B9Fd81952a8D33872",
+    "address": "0x6E2dAc3b9E9ADc0CbbaE2D0B9Fd81952a8D33872",
     "name": "ETH-BTC Momentum",
     "symbol": "ETHBTCMom",
     "decimals": 18,
@@ -292,9 +292,8 @@
     "symbol": "ETHBTCTrend",
     "decimals": 18,
     "logoURI": ""
-  }
-{
-{
+  },
+  {
     "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
     "name": "tBTC",
     "symbol": "tBTC",
