@@ -280,7 +280,7 @@
     "logoURI": "../images/rpl.png"
   },
   {
-    "address": "00x6E2dAc3b9E9ADc0CbbaE2D0B9Fd81952a8D33872",
+    "address": "0x6E2dAc3b9E9ADc0CbbaE2D0B9Fd81952a8D33872",
     "name": "ETH-BTC Momentum",
     "symbol": "ETHBTCMom",
     "decimals": 18,
