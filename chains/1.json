@@ -283,15 +283,13 @@
     "address": "0x6E2dAc3b9E9ADc0CbbaE2D0B9Fd81952a8D33872",
     "name": "ETH-BTC Momentum",
     "symbol": "ETHBTCMom",
-    "decimals": 18,
-    "logoURI": ""
+    "decimals": 18
   },
   {
     "address": "0x6b7f87279982d919Bbf85182DDeAB179B366D8f2",
     "name": "ETH-BTC Trend",
     "symbol": "ETHBTCTrend",
-    "decimals": 18,
-    "logoURI": ""
+    "decimals": 18
   },
   {
     "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
