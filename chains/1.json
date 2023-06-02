@@ -311,5 +311,12 @@
     "symbol": "wOETH",
     "decimals": 18,
     "logoURI": "../images/woeth.png"
+  },
+  {
+    "address": "0x249cA82617eC3DfB2589c4c17ab7EC9765350a18",
+    "name": "VERSE",
+    "symbol": "VERSE",
+    "decimals": 18,
+    "logoURI": "../images/verse.png"
   }
 ]
