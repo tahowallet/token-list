@@ -572,5 +572,12 @@
     "symbol": "sSPORK",
     "decimals": 18,
     "logoURI": "../images/sspork.png"
+  },
+  {
+    "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
+    "name": "tBTC",
+    "symbol": "tBTC",
+    "decimals": 18,
+    "logoURI": "../images/tBTCv2.png"
   }
 ]
