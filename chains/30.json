@@ -175,6 +175,13 @@
     "logoURI": "../images/rdoc.png"
   },
   {
+    "address": "0x3A15461d8aE0F0Fb5Fa2629e9DA7D66A794a6e37",
+    "name": "USDRIF",
+    "symbol": "USDRIF",
+    "decimals": 18,
+    "logoURI": "../images/usdrif.png"
+  },
+  {
     "address": "0x73c08467e23f7dcb7ddbbc8d05041b74467a498a",
     "name": "Flixxo on RSK",
     "symbol": "rFLIXX",
