@@ -1,0 +1,9 @@
+[
+  {
+    "address": "0x637e22A1EBbca50EA2d34027c238317fD10003eB",
+    "name": "Mezo USD",
+    "symbol": "mUSD",
+    "decimals": 18,
+    "logoURI": "../images/mUSD.svg"
+  }
+]
