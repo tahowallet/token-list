@@ -1,0 +1,20 @@
+[
+    {
+      "address": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
+      "chainId": 8453,
+      "name": "Super OETH",
+      "symbol": "superOETHb",
+      "decimals": 18,
+      "logoURL": "../images/superoeth.svg"
+    },
+
+    {
+        "address": "0x7fcd174e80f264448ebee8c88a7c4476aaf58ea6",
+        "chainId": 8453,
+        "name": "Wrapped Super OETH",
+        "symbol": "wsuperOETHb",
+        "decimals": 8,
+        "logoURL":"../images/wuperoeth.svg"
+      }
+    ]
+
