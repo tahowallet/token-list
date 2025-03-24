@@ -580,4 +580,11 @@
     "decimals": 18,
     "logoURI": "../images/tBTCv2.png"
   }
+    {
+    "address": "0x3F0ED4324052196930bbEe42746C63A6cFfB5a20",
+    "name": "Angel Battles Halo",
+    "symbol": "Halo",
+    "decimals": 18,
+    "logoURI": "../images/halo.png"
+  }
 ]
