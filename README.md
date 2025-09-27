@@ -140,3 +140,11 @@ The project automatically handles semantic versioning following the [Uniswap tok
 - **Patch version**: Token metadata updated (name, symbol, logoURI, decimals)
 
 Version increments happen automatically when token changes are merged to main.
+
+### IPFS Upload (Optional)
+
+To enable IPFS uploads via Fleek, set these environment variables:
+- `FLEEK_PAT`: Fleek access token
+- `FLEEK_PROJECT_ID`: Fleek project ID
+
+Without these credentials, the build will fall back to GitHub URLs for token logos.

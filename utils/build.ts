@@ -2,7 +2,7 @@
 
 import * as fs from "node:fs"
 import * as path from "node:path"
-import fleekStorage from "@fleekhq/fleek-storage-js"
+import { FleekSdk, PersonalAccessTokenService } from "@fleek-platform/sdk"
 import { schema } from "@uniswap/token-lists"
 import Ajv from "ajv"
 import addFormats from "ajv-formats"
@@ -132,8 +132,8 @@ const _EX_NOINPUT = 66
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      FLEEK_STORAGE_API_KEY?: string
-      FLEEK_STORAGE_API_SECRET?: string
+      FLEEK_PAT?: string
+      FLEEK_PROJECT_ID?: string
     }
   }
 }
@@ -195,37 +195,74 @@ glob("chains/*.json", {}, async (_er, files) => {
   }
 
   // if we can, upload all token images to IPFS and use that for the logoURIs
-  if (
-    process.env.FLEEK_STORAGE_API_KEY &&
-    process.env.FLEEK_STORAGE_API_SECRET
-  ) {
+  if (process.env.FLEEK_PAT && process.env.FLEEK_PROJECT_ID) {
     process.stdout.write("Uploading token logos to IPFS...\n")
-    tokens = await Promise.all(
-      tokens.map(async (token) => {
-        if (!token.logoURI) {
-          return token
-        }
-        const localTokenPath = path.resolve(
-          __dirname,
-          "../chains",
-          token.logoURI,
-        )
-        const uploadRequest = {
-          apiKey: process.env.FLEEK_STORAGE_API_KEY,
-          apiSecret: process.env.FLEEK_STORAGE_API_SECRET,
-          key: `tokens/${token.chainId}/${token.address}`,
-          data: fs.readFileSync(localTokenPath),
-        }
-        const result = await fleekStorage.upload(uploadRequest)
 
-        process.stdout.write(`Uploaded ${token.symbol} to ${result.hash}\n`)
+    // Initialize Fleek SDK
+    const accessTokenService = new PersonalAccessTokenService({
+      personalAccessToken: process.env.FLEEK_PAT,
+      projectId: process.env.FLEEK_PROJECT_ID,
+    })
+    const fleekSdk = new FleekSdk({ accessTokenService })
 
-        return {
-          ...token,
-          logoURI: `ipfs://${result.hash}`,
-        }
-      }),
-    )
+    try {
+      tokens = await Promise.all(
+        tokens.map(async (token) => {
+          if (!token.logoURI) {
+            return token
+          }
+          try {
+            const localTokenPath = path.resolve(
+              __dirname,
+              "../chains",
+              token.logoURI,
+            )
+
+            const file = fs.readFileSync(localTokenPath)
+            const result = await fleekSdk.storage().uploadFile({
+              file,
+            })
+
+            process.stdout.write(
+              `Uploaded ${token.symbol} to ${result.pin.cid}\n`,
+            )
+
+            return {
+              ...token,
+              logoURI: `ipfs://${result.pin.cid}`,
+            }
+          } catch (uploadError) {
+            process.stderr.write(
+              `Warning: Failed to upload ${token.symbol} logo to IPFS: ${uploadError.message}\n`,
+            )
+            // Fall back to GitHub URL
+            return {
+              ...token,
+              logoURI: token.logoURI
+                ? token.logoURI.replace(
+                    /^\.\./,
+                    "https://github.com/tahowallet/token-list/raw/main",
+                  )
+                : undefined,
+            }
+          }
+        }),
+      )
+    } catch (fleekError) {
+      process.stderr.write(
+        `Warning: Fleek upload process failed: ${fleekError.message}\nFalling back to GitHub URLs...\n`,
+      )
+      // Fall back to GitHub URLs for all tokens
+      tokens = tokens.map((token) => ({
+        ...token,
+        logoURI: token.logoURI
+          ? token.logoURI.replace(
+              /^\.\./,
+              "https://github.com/tahowallet/token-list/raw/main",
+            )
+          : undefined,
+      }))
+    }
   } else {
     // otherwise, use GitHub raw URLs
     process.stdout.write(
@@ -236,7 +273,7 @@ glob("chains/*.json", {}, async (_er, files) => {
       logoURI: token.logoURI
         ? token.logoURI.replace(
             /^\.\./,
-            "https://github.com/tallycash/token-list/raw/main",
+            "https://github.com/tahowallet/token-list/raw/main",
           )
         : undefined,
     }))
@@ -332,7 +369,7 @@ glob("chains/*.json", {}, async (_er, files) => {
   const outputFilename = path.resolve(
     __dirname,
     "../build/",
-    "tallycash.tokenlist.json",
+    "taho.tokenlist.json",
   )
 
   const newTokenList = {
@@ -353,19 +390,27 @@ glob("chains/*.json", {}, async (_er, files) => {
   fs.writeFileSync(outputFilename, JSON.stringify(newTokenList, undefined, 2))
 
   // if we can, upload token list to IPFS
-  if (
-    process.env.FLEEK_STORAGE_API_KEY &&
-    process.env.FLEEK_STORAGE_API_SECRET
-  ) {
+  if (process.env.FLEEK_PAT && process.env.FLEEK_PROJECT_ID) {
     process.stdout.write("Uploading token list to IPFS...\n")
-    const uploadRequest = {
-      apiKey: process.env.FLEEK_STORAGE_API_KEY,
-      apiSecret: process.env.FLEEK_STORAGE_API_SECRET,
-      key: `tallycash.tokenlist.json`,
-      data: fs.readFileSync(outputFilename),
-    }
-    const result = await fleekStorage.upload(uploadRequest)
 
-    process.stdout.write(`Uploaded list to ${result.hash}\n`)
+    try {
+      // Initialize Fleek SDK
+      const accessTokenService = new PersonalAccessTokenService({
+        personalAccessToken: process.env.FLEEK_PAT,
+        projectId: process.env.FLEEK_PROJECT_ID,
+      })
+      const fleekSdk = new FleekSdk({ accessTokenService })
+
+      const file = fs.readFileSync(outputFilename)
+      const result = await fleekSdk.storage().uploadFile({
+        file,
+      })
+
+      process.stdout.write(`Uploaded list to ${result.pin.cid}\n`)
+    } catch (uploadError) {
+      process.stderr.write(
+        `Warning: Failed to upload token list to IPFS: ${uploadError.message}\n`,
+      )
+    }
   }
 })
