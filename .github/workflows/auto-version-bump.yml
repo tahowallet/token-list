@@ -124,8 +124,8 @@ jobs:
         git push origin main
         git push origin "v${NEW_VERSION}"
       env:
-        FLEEK_STORAGE_API_KEY: ${{ secrets.FLEEK_STORAGE_API_KEY }}
-        FLEEK_STORAGE_API_SECRET: ${{ secrets.FLEEK_STORAGE_API_SECRET }}
+        FLEEK_PAT: ${{ secrets.FLEEK_PAT }}
+        FLEEK_PROJECT_ID: ${{ secrets.FLEEK_PROJECT_ID }}
 
     - name: Upload token list as an artifact
       if: steps.token_changes.outputs.tokens_changed == 'true'

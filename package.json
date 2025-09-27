@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.4",
-    "@fleekhq/fleek-storage-js": "^1.0.21",
+    "@fleek-platform/sdk": "^3.7.2",
     "@thesis-co/biome-config": "github:thesis/biome-config",
     "@types/glob": "^7.2.0",
     "ajv-formats": "^2.1.1",
