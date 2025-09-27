@@ -1,5 +1,5 @@
 {
-    "name": "Tally Cash List",
+    "name": "Taho List",
     "timestamp": "2022-02-08T10:40:00+00:00",
     "version": {
       "major": 2,
@@ -7,7 +7,7 @@
       "patch": 0
     },
     "keywords": [
-      "tallycash",
+      "taho",
       "default",
       "list",
       "wallet"
