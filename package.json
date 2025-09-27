@@ -18,6 +18,8 @@
     "typescript": "^4.6.2"
   },
   "scripts": {
-    "build": "ts-node utils/build.ts"
+    "build": "ts-node utils/build.ts",
+    "test": "node tests/semantic-versioning.test.js",
+    "test:verbose": "node tests/semantic-versioning.test.js --verbose"
   }
 }
