@@ -1,0 +1,79 @@
+[
+  {
+    "address": "0x7b7C000000000000000000000000000000000000",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "logoURI": "../images/btc.png"
+  },
+  {
+    "address": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "name": "Mezo USD",
+    "symbol": "MUSD",
+    "decimals": 18,
+    "logoURI": "../images/musd.png"
+  },
+  {
+    "address": "0x221B2D9aD7B994861Af3f4c8A80c86C4aa86Bf53",
+    "name": "Ultra Prime Mezo USD",
+    "symbol": "upMUSD",
+    "decimals": 18,
+    "logoURI": "../images/mUSD.svg"
+  },
+  {
+    "address": "0x04671C72Aab5AC02A03c1098314b1BB6B560c197",
+    "name": "Mezo USDC",
+    "symbol": "mUSDC",
+    "decimals": 6,
+    "logoURI": "../images/usdc.svg"
+  },
+  {
+    "address": "0xeB5a5d39dE4Ea42C2Aa6A57EcA2894376683bB8E",
+    "name": "Mezo USDT",
+    "symbol": "mUSDT",
+    "decimals": 6,
+    "logoURI": "../images/usdt.svg"
+  },
+  {
+    "address": "0xdF708431162Ba247dDaE362D2c919e0fbAfcf9DE",
+    "name": "Mezo xSolv BTC",
+    "symbol": "mxSolvBTC",
+    "decimals": 18,
+    "logoURI": "../images/solvBTC.png"
+  },
+  {
+    "address": "0xa10aD2570ea7b93d19fDae6Bd7189fF4929Bc747",
+    "name": "Mezo Solv BTC",
+    "symbol": "mSolvBTC",
+    "decimals": 18,
+    "logoURI": "../images/solvBTC.png"
+  },
+  {
+    "address": "0x7B7c000000000000000000000000000000000001",
+    "name": "Mezo",
+    "symbol": "MEZO",
+    "decimals": 18,
+    "logoURI": "../images/mezo.png"
+  },
+  {
+    "address": "0x6a7CD8E1384d49f502b4A4CE9aC9eb320835c5d7",
+    "name": "Mezo cbBTC",
+    "symbol": "mcbBTC",
+    "decimals": 8,
+    "logoURI": "../images/cbBTC.png"
+  },
+  {
+    "address": "0xdf6542260a9F768f07030E4895083F804241F4C4",
+    "name": "Mezo USDe",
+    "symbol": "mUSDe",
+    "decimals": 18,
+    "logoURI": "../images/usde.png"
+  },
+  {
+    "address": "0xaaC423eDC4E3ee9ef81517e8093d52737165b71F",
+    "name": "Mezo T",
+    "symbol": "mT",
+    "decimals": 18,
+    "logoURI": "../images/threshold.svg"
+  }
+]
