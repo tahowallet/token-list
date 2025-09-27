@@ -1,0 +1,17 @@
+name: General Issue
+description: Open a blank issue for general questions, feature requests, or other topics
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide a clear and detailed description of your issue, question, or request.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe your issue, question, or request
+      placeholder: Please provide details...
+    validations:
+      required: true
