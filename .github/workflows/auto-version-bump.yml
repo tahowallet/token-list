@@ -17,13 +17,13 @@ jobs:
       run: echo "NVMRC=$(cat ./.nvmrc)" >> $GITHUB_OUTPUT
       id: nvm
 
-    - name: Use Node + Yarn
+    - name: Use Node + pnpm
       uses: actions/setup-node@v3
       with:
         node-version: "${{ steps.nvm.outputs.NVMRC }}"
-        cache: "yarn"
+        cache: "pnpm"
 
-    - run: yarn install --frozen-lockfile
+    - run: pnpm install --frozen-lockfile
 
     - name: Configure Git
       run: |
@@ -98,7 +98,7 @@ jobs:
         CHANGES_BASE64="${{ steps.analyze_changes.outputs.CHANGES_BASE64 }}"
         
         # Run the build script with version increment flag and git changes
-        yarn build --increment-version --git-changes="$CHANGES_BASE64"
+        pnpm build --increment-version --git-changes="$CHANGES_BASE64"
 
         # Check if files were actually changed by the build
         if git diff --quiet; then

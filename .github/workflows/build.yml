@@ -10,20 +10,20 @@ jobs:
     - name: Read .nvmrc
       run: echo "::set-output name=NVMRC::$(cat ./.nvmrc)"
       id: nvm
-    - name: Use Node + Yarn
-      uses: actions/setup-node@v2
+    - name: Use Node + pnpm
+      uses: actions/setup-node@v3
       with:
         node-version: "${{ steps.nvm.outputs.NVMRC }}"
-        cache: "yarn"
-    - run: yarn install --frozen-lockfile
+        cache: "pnpm"
+    - run: pnpm install --frozen-lockfile
     - name: Run tests
-      run: yarn test
+      run: pnpm test
     - name: Build token list for PRs
       if: github.ref != 'refs/heads/main'
-      run: yarn build
+      run: pnpm build
     - name: Build token list for main
       if: github.ref == 'refs/heads/main'
-      run: yarn build
+      run: pnpm build
       env:
         FLEEK_STORAGE_API_KEY: ${{ secrets.FLEEK_STORAGE_API_KEY }}
         FLEEK_STORAGE_API_SECRET: ${{ secrets.FLEEK_STORAGE_API_SECRET }}

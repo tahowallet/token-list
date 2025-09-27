@@ -107,3 +107,27 @@ the token schema that you are adding. Below is an example of adding LOOKS token.
         "logoURI" : "https://github.com/tahowallet/token-list/images/looks.png"
       }
 ```
+
+## Development
+
+This project uses Node.js v22 (LTS) and pnpm for package management.
+
+### Setup
+```bash
+# Install dependencies
+pnpm install
+
+# Run tests
+pnpm test
+
+# Build token list
+pnpm build
+```
+
+### Automated Version Management
+The project automatically handles semantic versioning following the [Uniswap token list standard](https://github.com/Uniswap/token-lists):
+- **Major version**: Tokens removed, addresses/chainIds changed
+- **Minor version**: Tokens added
+- **Patch version**: Token metadata updated (name, symbol, logoURI, decimals)
+
+Version increments happen automatically when token changes are merged to main.

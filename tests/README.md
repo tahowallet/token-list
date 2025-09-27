@@ -18,10 +18,10 @@ Tests the automatic semantic versioning logic that determines whether to increme
 
 ```bash
 # Run all tests
-yarn test
+pnpm test
 
 # Run tests with verbose output
-yarn test:verbose
+pnpm test:verbose
 
 # Run specific test file
 node tests/semantic-versioning.test.js
@@ -40,7 +40,7 @@ When adding new semantic versioning logic or edge cases:
 
 1. Add test cases to `semantic-versioning.test.js` in the `testCases` array
 2. Include both the expected behavior and the input changes  
-3. Test locally with `yarn test`
+3. Test locally with `pnpm test`
 4. Ensure CI passes before merging
 
 ## Test Philosophy  
