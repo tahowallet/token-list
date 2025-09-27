@@ -1,0 +1,78 @@
+name: Bump version on token changes
+on:
+  push:
+    branches: [main]
+    paths: ['chains/*.json']
+
+jobs:
+  version-bump:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Read .nvmrc
+      run: echo "NVMRC=$(cat ./.nvmrc)" >> $GITHUB_OUTPUT
+      id: nvm
+
+    - name: Use Node + Yarn
+      uses: actions/setup-node@v3
+      with:
+        node-version: "${{ steps.nvm.outputs.NVMRC }}"
+        cache: "yarn"
+
+    - run: yarn install --frozen-lockfile
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Check for token changes
+      id: token_changes
+      run: |
+        if git diff --name-only HEAD~1 HEAD | grep -q "chains/.*\.json"; then
+          echo "tokens_changed=true" >> $GITHUB_OUTPUT
+          echo "Token files were modified in this commit"
+        else
+          echo "tokens_changed=false" >> $GITHUB_OUTPUT
+          echo "No token files were modified"
+        fi
+
+    - name: Increment version and build
+      if: steps.token_changes.outputs.tokens_changed == 'true'
+      run: |
+        # Run the build script with version increment flag
+        yarn build --increment-version
+
+        # Check if files were actually changed by the build
+        if git diff --quiet; then
+          echo "No version changes were made"
+          exit 0
+        fi
+
+        # Get the new version for commit message
+        NEW_VERSION=$(node -p "JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.major + '.' + JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.minor + '.' + JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.patch")
+
+        # Stage and commit the version changes
+        git add base.tokenlist.json package.json
+        git commit -m "Auto-increment version to v${NEW_VERSION} for token list update"
+
+        # Create a git tag
+        git tag "v${NEW_VERSION}"
+
+        # Push changes and tag
+        git push origin main
+        git push origin "v${NEW_VERSION}"
+      env:
+        FLEEK_STORAGE_API_KEY: ${{ secrets.FLEEK_STORAGE_API_KEY }}
+        FLEEK_STORAGE_API_SECRET: ${{ secrets.FLEEK_STORAGE_API_SECRET }}
+
+    - name: Upload token list as an artifact
+      if: steps.token_changes.outputs.tokens_changed == 'true'
+      uses: actions/upload-artifact@v3
+      with:
+        name: tallycash.tokenlist.json
+        path: build/tallycash.tokenlist.json

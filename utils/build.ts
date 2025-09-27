@@ -10,6 +10,9 @@ import addFormats from "ajv-formats"
 
 import fleekStorage from "@fleekhq/fleek-storage-js"
 
+// Check if version increment is requested
+const shouldIncrementVersion = process.argv.includes('--increment-version')
+
 const ajv = new Ajv({ allErrors: true, verbose: true })
 addFormats(ajv)
 const tokenlistValidator = ajv.compile(schema)
@@ -119,13 +122,47 @@ glob("chains/*.json", {}, async function (er, files) {
   }
 
   const tokenlistTemplate = JSON.parse(fs.readFileSync(path.resolve(__dirname, "./../", "base.tokenlist.json")).toString())
+  
+  // Handle version increment if requested
+  let updatedTemplate = tokenlistTemplate
+  if (shouldIncrementVersion) {
+    // Increment minor version
+    const newVersion = {
+      ...tokenlistTemplate.version,
+      minor: tokenlistTemplate.version.minor + 1,
+      patch: 0 // Reset patch version when incrementing minor
+    }
+    
+    // Update timestamp to current time
+    const currentTimestamp = new Date().toISOString()
+    
+    updatedTemplate = {
+      ...tokenlistTemplate,
+      version: newVersion,
+      timestamp: currentTimestamp
+    }
+    
+    // Write updated template back to base.tokenlist.json
+    fs.writeFileSync(
+      path.resolve(__dirname, "./../", "base.tokenlist.json"), 
+      JSON.stringify(updatedTemplate, undefined, 2) + '\n'
+    )
+    
+    // Also update package.json version to match
+    const packageJsonPath = path.resolve(__dirname, "./../", "package.json")
+    const packageJson = JSON.parse(fs.readFileSync(packageJsonPath).toString())
+    packageJson.version = `${newVersion.major}.${newVersion.minor}.${newVersion.patch}`
+    fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, undefined, 2) + '\n')
+    
+    process.stdout.write(`Version incremented to ${packageJson.version}\n`)
+  }
 
   fs.mkdirSync(path.resolve(__dirname, "../build/"), { recursive: true })
 
   const outputFilename = path.resolve(__dirname, "../build/", "tallycash.tokenlist.json")
 
   const newTokenList = {
-    ...tokenlistTemplate,
+    ...updatedTemplate,
     tokens
   }
 
@@ -139,8 +176,6 @@ glob("chains/*.json", {}, async function (er, files) {
     process.exit(EX_DATAERR)
   }
 
-  // TODO set timestamp
-  // TODO set version as version in package.json
   fs.writeFileSync(outputFilename, JSON.stringify(newTokenList, undefined, 2))
 
   // if we can, upload token list to IPFS
