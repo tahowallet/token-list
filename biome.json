@@ -1,0 +1,6 @@
+{
+  "extends": ["@thesis-co/biome-config/biome"],
+  "files": {
+    "includes": ["utils/**/*.ts", "tests/**/*.js", "tests/**/*.ts"]
+  }
+}
