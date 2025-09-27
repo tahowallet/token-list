@@ -1,14 +1,16 @@
-# README token-list
+# token-list
 
-A community-maintained token list for Taho, the community-owned wallet.
+A community-maintained token list for [Taho](https://taho.xyz),
+the community-owned wallet.
 
-The JSON schema represents the technical specification for a token list which can be used in a dApp interface, such as the Taho wallet.
+The JSON schema represents the technical specification for a token list
+which can be used in a dApp interface, such as the Taho wallet.
 
-The schema is based upon the [uniswap token list implementation standard](https://github.com/Uniswap/token-lists)
+The schema is based upon the [Uniswap token list standard](https://github.com/Uniswap/token-lists)
 
 ## What are token lists?
 
-Uniswap Token Lists is a specification for lists of token metadata (e.g. address, decimals, ...) that can be used by any dApp interfaces that needs one or more lists of tokens.
+Token lists are lists of token metadata (e.g. address, decimals, ...) that can be used by any dApp interfaces that needs one or more lists of tokens.
 
 Anyone can create and maintain a token list, as long as they follow the specification.
 
@@ -21,15 +23,15 @@ Tokens on token lists, and token lists themselves, are tagged so that users can 
 
 The JSON schema ID is [https://uniswap.org/tokenlist.schema.json](https://uniswap.org/tokenlist.schema.json)
 
-## Taho Lists
+## Taho's list
 
 Taho aggregates the tokens that are reputable and vetoed by using some of the lists from well establised protocols like [Uniswap](https://uniswap.org/) , [Yearn](https://yearn.finance/), [Messari](https://messari.io/) and more.
 
 The lists can be found [here](https://github.com/tahowallet/extension/blob/main/background/services/preferences/defaults.ts)
 
-The intention of the Taho list is to empower users to add tokens that the community cares about, are added to these lists slowly or that have bad metadata on other lists.
+The intention of the Taho list is to empower users to add tokens that the community cares about, and are added to these lists slowly or that have bad metadata on other lists.
 
-## Adding a token to Taho token list
+## Adding a token to the Taho token list
 
 Taho is a community run DAO and welcomes contributions from anyone. If you would like to add tokens to this list, you may do the following steps:
 
