@@ -41,11 +41,64 @@ jobs:
           echo "No token files were modified"
         fi
 
+    - name: Analyze token changes
+      if: steps.token_changes.outputs.tokens_changed == 'true'
+      id: analyze_changes
+      run: |
+        # Create a script to analyze changes in token files
+        cat > analyze_changes.js << 'EOF'
+        const fs = require('fs');
+        const { execSync } = require('child_process');
+        
+        // Get list of changed files
+        const changedFiles = execSync('git diff --name-only HEAD~1 HEAD', { encoding: 'utf8' })
+          .split('\n')
+          .filter(f => f.match(/chains\/.*\.json$/));
+        
+        const changes = [];
+        
+        for (const file of changedFiles) {
+          try {
+            // Check if file was added, modified, or deleted
+            const status = execSync(`git diff --name-status HEAD~1 HEAD -- "${file}"`, { encoding: 'utf8' }).trim();
+            
+            if (status.startsWith('A')) {
+              // File was added
+              const after = JSON.parse(fs.readFileSync(file, 'utf8'));
+              changes.push({ file, type: 'added', after });
+            } else if (status.startsWith('D')) {
+              // File was deleted
+              const before = JSON.parse(execSync(`git show HEAD~1:"${file}"`, { encoding: 'utf8' }));
+              changes.push({ file, type: 'deleted', before });
+            } else if (status.startsWith('M')) {
+              // File was modified
+              const before = JSON.parse(execSync(`git show HEAD~1:"${file}"`, { encoding: 'utf8' }));
+              const after = JSON.parse(fs.readFileSync(file, 'utf8'));
+              changes.push({ file, type: 'modified', before, after });
+            }
+          } catch (e) {
+            console.error(`Error analyzing ${file}:`, e.message);
+          }
+        }
+        
+        // Output base64-encoded changes for the build script
+        const changesJson = JSON.stringify(changes);
+        const changesBase64 = Buffer.from(changesJson).toString('base64');
+        console.log('CHANGES_BASE64=' + changesBase64);
+        EOF
+        
+        # Run the analysis and capture the output
+        CHANGES_OUTPUT=$(node analyze_changes.js)
+        echo "$CHANGES_OUTPUT" >> $GITHUB_OUTPUT
+
     - name: Increment version and build
       if: steps.token_changes.outputs.tokens_changed == 'true'
       run: |
-        # Run the build script with version increment flag
-        yarn build --increment-version
+        # Extract the base64 changes from the previous step
+        CHANGES_BASE64="${{ steps.analyze_changes.outputs.CHANGES_BASE64 }}"
+        
+        # Run the build script with version increment flag and git changes
+        yarn build --increment-version --git-changes="$CHANGES_BASE64"
 
         # Check if files were actually changed by the build
         if git diff --quiet; then
