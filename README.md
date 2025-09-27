@@ -117,6 +117,15 @@ This project uses Node.js v22 (LTS) and pnpm for package management.
 # Install dependencies
 pnpm install
 
+# Run linting
+pnpm lint
+
+# Fix linting issues
+pnpm lint:fix
+
+# Format code
+pnpm format
+
 # Run tests
 pnpm test
 

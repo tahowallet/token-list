@@ -16,6 +16,8 @@ jobs:
         node-version: "${{ steps.nvm.outputs.NVMRC }}"
         cache: "pnpm"
     - run: pnpm install --frozen-lockfile
+    - name: Run linting
+      run: pnpm lint
     - name: Run tests
       run: pnpm test
     - name: Build token list for PRs
