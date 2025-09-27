@@ -4,14 +4,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
     - name: Read .nvmrc
-      run: echo "::set-output name=NVMRC::$(cat ./.nvmrc)"
+      run: echo "NVMRC=$(cat ./.nvmrc)" >> $GITHUB_OUTPUT
       id: nvm
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 10
     - name: Use Node + pnpm
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: "${{ steps.nvm.outputs.NVMRC }}"
         cache: "pnpm"
@@ -30,7 +34,7 @@ jobs:
         FLEEK_STORAGE_API_KEY: ${{ secrets.FLEEK_STORAGE_API_KEY }}
         FLEEK_STORAGE_API_SECRET: ${{ secrets.FLEEK_STORAGE_API_SECRET }}
     - name: Upload token list as an artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: tallycash.tokenlist.json
         path: build/tallycash.tokenlist.json

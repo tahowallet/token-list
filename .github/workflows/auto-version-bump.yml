@@ -8,7 +8,7 @@ jobs:
   version-bump:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -17,8 +17,12 @@ jobs:
       run: echo "NVMRC=$(cat ./.nvmrc)" >> $GITHUB_OUTPUT
       id: nvm
 
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 10
     - name: Use Node + pnpm
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: "${{ steps.nvm.outputs.NVMRC }}"
         cache: "pnpm"
@@ -125,7 +129,7 @@ jobs:
 
     - name: Upload token list as an artifact
       if: steps.token_changes.outputs.tokens_changed == 'true'
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: tallycash.tokenlist.json
         path: build/tallycash.tokenlist.json
