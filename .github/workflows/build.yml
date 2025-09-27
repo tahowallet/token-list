@@ -36,5 +36,5 @@ jobs:
     - name: Upload token list as an artifact
       uses: actions/upload-artifact@v4
       with:
-        name: tallycash.tokenlist.json
-        path: build/tallycash.tokenlist.json
+        name: taho.tokenlist.json
+        path: build/taho.tokenlist.json

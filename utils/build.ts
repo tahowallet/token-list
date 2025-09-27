@@ -241,7 +241,7 @@ glob("chains/*.json", {}, async (_er, files) => {
               logoURI: token.logoURI
                 ? token.logoURI.replace(
                     /^\.\./,
-                    "https://github.com/tallycash/token-list/raw/main",
+                    "https://github.com/tahowallet/token-list/raw/main",
                   )
                 : undefined,
             }
@@ -258,7 +258,7 @@ glob("chains/*.json", {}, async (_er, files) => {
         logoURI: token.logoURI
           ? token.logoURI.replace(
               /^\.\./,
-              "https://github.com/tallycash/token-list/raw/main",
+              "https://github.com/tahowallet/token-list/raw/main",
             )
           : undefined,
       }))
@@ -273,7 +273,7 @@ glob("chains/*.json", {}, async (_er, files) => {
       logoURI: token.logoURI
         ? token.logoURI.replace(
             /^\.\./,
-            "https://github.com/tallycash/token-list/raw/main",
+            "https://github.com/tahowallet/token-list/raw/main",
           )
         : undefined,
     }))
@@ -369,7 +369,7 @@ glob("chains/*.json", {}, async (_er, files) => {
   const outputFilename = path.resolve(
     __dirname,
     "../build/",
-    "tallycash.tokenlist.json",
+    "taho.tokenlist.json",
   )
 
   const newTokenList = {

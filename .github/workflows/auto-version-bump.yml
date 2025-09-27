@@ -131,5 +131,5 @@ jobs:
       if: steps.token_changes.outputs.tokens_changed == 'true'
       uses: actions/upload-artifact@v4
       with:
-        name: tallycash.tokenlist.json
-        path: build/tallycash.tokenlist.json
+        name: taho.tokenlist.json
+        path: build/taho.tokenlist.json
