@@ -318,5 +318,12 @@
     "symbol": "VERSE",
     "decimals": 18,
     "logoURI": "../images/verse.png"
+  },
+  {
+    "address": "0xdD468A1DDc392dcdbEf6db6e34E89AA338F9F186",
+    "name": "Mezo USD",
+    "symbol": "MUSD",
+    "decimals": 18,
+    "logoURI": "../images/musd.png"
   }
 ]
