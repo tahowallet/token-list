@@ -112,11 +112,23 @@ jobs:
 
         # Get the new version for commit message
         NEW_VERSION=$(node -p "JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.major + '.' + JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.minor + '.' + JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.patch")
+        echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
 
-        # Stage and commit the version changes
+        # Stage the version changes
         git add base.tokenlist.json package.json
-        git commit -m "Auto-increment version to v${NEW_VERSION} for token list update"
 
+    - name: Commit version bump with verified signature
+      if: steps.token_changes.outputs.tokens_changed == 'true'
+      uses: swinton/commit@v2.0.0
+      with:
+        commit-message: "Auto-increment version to v${{ env.NEW_VERSION }} for token list update"
+
+    - name: Create tag and push
+      if: steps.token_changes.outputs.tokens_changed == 'true'
+      run: |
+        # Get the new version for tagging
+        NEW_VERSION=$(node -p "JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.major + '.' + JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.minor + '.' + JSON.parse(require('fs').readFileSync('base.tokenlist.json', 'utf8')).version.patch")
+        
         # Create a git tag
         git tag "v${NEW_VERSION}"
 
