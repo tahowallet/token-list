@@ -325,5 +325,19 @@
     "symbol": "MUSD",
     "decimals": 18,
     "logoURI": "../images/musd.png"
+  },
+  {
+    "address": "0xbc920c7Fa25D3Cd5606394aa4C6751d71DCb7930",
+    "name": "K9",
+    "symbol": "K9",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbc920c7Fa25D3Cd5606394aa4C6751d71DCb7930/logo.png"
+  },
+  {
+    "address": "0x884649f1fE3Bf3Ae0Bd720Eaf660cB561dcE39ef",
+    "name": "World Pup Coin",
+    "symbol": "PUPCUP",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x884649f1fE3Bf3Ae0Bd720Eaf660cB561dcE39ef/logo.png"
   }
 ]
