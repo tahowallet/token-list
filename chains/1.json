@@ -325,5 +325,12 @@
     "symbol": "MUSD",
     "decimals": 18,
     "logoURI": "../images/musd.png"
+  },
+  {
+    "address": "0xBd965230588EAA536dE6aA45E8ebbc01638535e0",
+    "name": "Motoswap",
+    "symbol": "MOTO",
+    "decimals": 18,
+    "logoURI": "../images/moto.png"
   }
 ]
