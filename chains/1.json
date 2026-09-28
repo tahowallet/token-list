@@ -325,5 +325,12 @@
     "symbol": "MUSD",
     "decimals": 18,
     "logoURI": "../images/musd.png"
+  },
+  {
+    "address": "0x18162F5cf35647be0910F30B4466bE39295E4878",
+    "name": "lmeow",
+    "symbol": "LMEOW",
+    "decimals": 18,
+    "logoURI": "../images/lmeow.png"
   }
 ]
